@@ -6,7 +6,7 @@
   <link href="https://leochen12138-a.github.io/atom.xml" rel="self"/>
   
   <link href="https://leochen12138-a.github.io/"/>
-  <updated>2021-03-05T13:59:19.116Z</updated>
+  <updated>2021-03-25T04:35:56.023Z</updated>
   <id>https://leochen12138-a.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客声明</title>
+    <link href="https://leochen12138-a.github.io/p/acc602b8/index.html"/>
+    <id>https://leochen12138-a.github.io/p/acc602b8/index.html</id>
+    <published>2021-03-25T03:45:20.000Z</published>
+    <updated>2021-03-25T04:35:56.023Z</updated>
+    
+    
+    <summary type="html">这是一篇 博客声明 的记录</summary>
+    
+    
+    
+    <category term="博客" scheme="https://leochen12138-a.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="声明" scheme="https://leochen12138-a.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%A3%B0%E6%98%8E/"/>
+    
+    
+    <category term="博客" scheme="https://leochen12138-a.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="声明" scheme="https://leochen12138-a.github.io/tags/%E5%A3%B0%E6%98%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git 和 Github 相关</title>
+    <link href="https://leochen12138-a.github.io/p/d19cdba9/index.html"/>
+    <id>https://leochen12138-a.github.io/p/d19cdba9/index.html</id>
+    <published>2021-03-25T02:36:31.000Z</published>
+    <updated>2021-03-25T05:34:50.988Z</updated>
+    
+    
+    <summary type="html">这是一篇 Git 和 Github 相关 的记录</summary>
+    
+    
+    
+    <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
+    
+    
+    <category term="Git" scheme="https://leochen12138-a.github.io/tags/Git/"/>
+    
+    <category term="Github" scheme="https://leochen12138-a.github.io/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>数理逻辑_笔记</title>
@@ -63,7 +107,7 @@
     <link href="https://leochen12138-a.github.io/p/1ab310f8/index.html"/>
     <id>https://leochen12138-a.github.io/p/1ab310f8/index.html</id>
     <published>2021-02-20T13:28:41.000Z</published>
-    <updated>2021-02-20T13:34:49.020Z</updated>
+    <updated>2021-03-19T02:39:07.804Z</updated>
     
     
     <summary type="html">这是一篇 Algorithm 相关 的记录</summary>

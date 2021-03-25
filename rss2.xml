@@ -15,8 +15,56 @@
     <atom:link href="https://leochen12138-a.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习,记录,测试</description>
-    <pubDate>Fri, 05 Mar 2021 13:59:19 GMT</pubDate>
+    <pubDate>Thu, 25 Mar 2021 04:35:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>博客声明</title>
+      <link>https://leochen12138-a.github.io/p/acc602b8/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/acc602b8/index.html</guid>
+      <pubDate>Thu, 25 Mar 2021 03:45:20 GMT</pubDate>
+      
+      <description>这是一篇 博客声明 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%A3%B0%E6%98%8E/">声明</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%A3%B0%E6%98%8E/">声明</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/acc602b8/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Git 和 Github 相关</title>
+      <link>https://leochen12138-a.github.io/p/d19cdba9/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/d19cdba9/index.html</guid>
+      <pubDate>Thu, 25 Mar 2021 02:36:31 GMT</pubDate>
+      
+      <description>这是一篇 Git 和 Github 相关 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Git/">Git</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Github/">Github</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/d19cdba9/index.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>数理逻辑_笔记</title>
