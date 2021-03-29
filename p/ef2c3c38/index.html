@@ -1,0 +1,545 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>有趣的曲线集 | Leochen的博客</title><meta name="description" content="这是一篇 有趣的曲线集 的记录"><meta name="keywords" content="函数,曲线,几何"><meta name="author" content="Leo Chen"><meta name="copyright" content="Leo Chen"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://leochen12138-a.github.io/p/ef2c3c38/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="有趣的曲线集"><meta property="og:url" content="https://leochen12138-a.github.io/p/ef2c3c38/"><meta property="og:site_name" content="Leochen的博客"><meta property="og:description" content="这是一篇 有趣的曲线集 的记录"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2021-03-29T13:10:42.000Z"><meta property="article:modified_time" content="2021-03-29T14:14:37.440Z"><meta name="twitter:card" content="summary"><link rel="manifest" href="/img/pwa/manifest.json"/><meta name="theme-color" content="#fff"/><meta name="msapplication-TileColor" content="#fff"/><link rel="apple-touch-icon" sizes="180x180" href="/img/pwa/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/pwa/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/pwa/16.png"/><link rel="mask-icon" href="/img/pwa/safari-pinned-tab.svg" color="#5bbad5"/><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = '1'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="next" title="VSC 相关" href="https://leochen12138-a.github.io/p/ba14d865/index.html"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: true    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2021-03-29 22:14:37'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Leochen的博客" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Leochen的博客" type="application/rss+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="./img/loading.gif" data-original="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">44</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">66</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">54</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/box/"><i class="fa-fw fas fa-box"></i><span> 百宝箱</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-book-reader"></i><span> 列表</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 文娱</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Demo/"><i class="fa-fw fas fa-universal-access"></i><span> Demo</span></a></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95-toc"><span class="toc-text"> 目录 Toc</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E9%A2%98-tittle"><span class="toc-text"> 标题 Tittle</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%98%E8%A6%81-abstract"><span class="toc-text"> 摘要 Abstract</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%AF%8D-keywords"><span class="toc-text"> 关键词 Keywords</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%AA%E8%AE%BA-introduction"><span class="toc-text"> 绪论 Introduction</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E4%BD%93-main-body"><span class="toc-text"> 主体 Main body</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86-preliminaries"><span class="toc-text"> 预备知识 Preliminaries</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95"><span class="toc-text"> 研究方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1"><span class="toc-text"> 实验设计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E8%A6%81%E7%BB%93%E6%9E%9C"><span class="toc-text"> 主要结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E6%96%B9%E6%B3%95"><span class="toc-text"> 证明方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BB%B6%E7%94%B3-extensions"><span class="toc-text"> 延申 Extensions</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E8%AE%BA-conclusion"><span class="toc-text"> 结论 Conclusion</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E6%80%A7"><span class="toc-text"> 定性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E9%87%8F"><span class="toc-text"> 定量</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%84%9F%E8%B0%A2-acknowledgments"><span class="toc-text"> 感谢 Acknowledgments</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83-reference"><span class="toc-text"> 参考 Reference</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#website"><span class="toc-text"> WebSite</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#blog"><span class="toc-text"> Blog</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#paper"><span class="toc-text"> Paper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#book"><span class="toc-text"> Book</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#video"><span class="toc-text"> Video</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#audio"><span class="toc-text"> Audio</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#other"><span class="toc-text"> Other</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%99%84%E5%BD%95-appendix"><span class="toc-text"> 附录 Appendix</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#qa"><span class="toc-text"> Q&amp;A</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#website-2"><span class="toc-text"> WebSite</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#download"><span class="toc-text"> Download</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Leochen的博客</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/box/"><i class="fa-fw fas fa-box"></i><span> 百宝箱</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-book-reader"></i><span> 列表</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 文娱</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Demo/"><i class="fa-fw fas fa-universal-access"></i><span> Demo</span></a></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">有趣的曲线集</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2021-03-29 21:10:42"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2021-03-29</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2021-03-29 22:14:37"><i class="fas fa-history fa-fw"></i> 更新于 2021-03-29</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E5%87%BD%E6%95%B0/">函数</a><i class="fas fa-angle-right post-meta__separator"></i><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E5%87%BD%E6%95%B0/%E6%9B%B2%E7%BA%BF/">曲线</a></span></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i><span>字数总计:</span><span class="word-count">2.4k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 11 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="/p/ef2c3c38/index.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/p/ef2c3c38/index.html" itemprop="commentCount"></span></a></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
+            <meting-js  id="5078197171" server="netease" type="playlist" autoplay="true" mutex="false" listmaxheight="340px" preload="none" theme="#ad7a86" order="random" fixed="true" listfolded="true"></meting-js>
+<p>注意:<br />
+该文来源于网络，经本人收集整理。<br />
+文章中提供的资源及下载仅供学习交流使用，请在24h内删除。<br />
+若用户违反相关法律法规造成损失，将由用户自行承担后果，本文作者将不承担一切责任。<br />
+文末附带参考链接，如需了解请自行访问。<br />
+文章内容若有雷同，不胜荣幸。<br />
+如有侵权，联系删除。</p>
+<hr />
+<blockquote>
+<p>开始时间: 2021/03/29<br />
+更新时间: 2021/03/29<br />
+状态: 待更<br />
+文章作者: Leo Chen<br />
+文章链接: <a href="https://leochen12138-a.github.io/p/ef2c3c38/index.html">https://leochen12138-a.github.io/p/ef2c3c38/index.html</a></p>
+</blockquote>
+<hr />
+<h1 id="目录-toc"><a class="markdownIt-Anchor" href="#目录-toc"></a> 目录 Toc</h1>
+<p>[toc]</p>
+<h1 id="标题-tittle"><a class="markdownIt-Anchor" href="#标题-tittle"></a> 标题 Tittle</h1>
+<blockquote>
+<p>Tittle: 有趣的曲线集<br />
+Author: Leochen*<br />
+Units:</p>
+</blockquote>
+<h2 id="摘要-abstract"><a class="markdownIt-Anchor" href="#摘要-abstract"></a> 摘要 Abstract</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 介绍 Introduction、材料 Materials、方法 Methods、结果 Result、讨论 Discussion</span></span><br><span class="line"><span class="comment"># 背景句 Background Sentence、主题句 Main topic Sentence、结果句 Conclusion Sentence</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>来源: 网络<br />
+介绍: 这是一篇曲线的函数集<br />
+对象:<br />
+结构:<br />
+内容: 有趣的几何化<br />
+结果:<br />
+讨论:</p>
+</blockquote>
+<h2 id="关键词-keywords"><a class="markdownIt-Anchor" href="#关键词-keywords"></a> 关键词 Keywords</h2>
+<blockquote>
+<p>螺旋线</p>
+</blockquote>
+<h2 id="绪论-introduction"><a class="markdownIt-Anchor" href="#绪论-introduction"></a> 绪论 Introduction</h2>
+<blockquote>
+<p>预备信息:<br />
+前人工作:<br />
+知识空白:<br />
+动机: 好玩<br />
+目的: 分享</p>
+</blockquote>
+<h1 id="主体-main-body"><a class="markdownIt-Anchor" href="#主体-main-body"></a> 主体 Main body</h1>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 预备知识 Preliminaries、研究方法(原理、理论、条件、对象、材料、工艺、手段、装备、程序)、实验设计(原理、建模、设备)、主要结果 Main result(预取结果、实验结果)、证明方法 The outline of proofs、延申 Extensions</span></span><br></pre></td></tr></table></figure>
+<h2 id="预备知识-preliminaries"><a class="markdownIt-Anchor" href="#预备知识-preliminaries"></a> 预备知识 Preliminaries</h2>
+<blockquote></blockquote>
+<h2 id="研究方法"><a class="markdownIt-Anchor" href="#研究方法"></a> 研究方法</h2>
+<blockquote></blockquote>
+<h2 id="实验设计"><a class="markdownIt-Anchor" href="#实验设计"></a> 实验设计</h2>
+<blockquote></blockquote>
+<h2 id="主要结果"><a class="markdownIt-Anchor" href="#主要结果"></a> 主要结果</h2>
+<blockquote>
+<p>来源:<a target="_blank" rel="noopener" href="http://blog.sina.com.cn/s/blog_803647b10102w915.html">@sina_blog_文禾学术_ProE各种螺旋线绘制</a></p>
+</blockquote>
+<p>1.碟形弹簧圓柱坐标方程<br />
+r= 5 theta = t<em>3600 z =(sin(3.5</em>theta-90))+24*t</p>
+<p>2.葉形线.笛卡儿坐標标方程<br />
+a=10x=3<em>a</em>t/(1+(t^3)) y=3<em>a</em>(t<sup>2)/(1+(t</sup>3))</p>
+<p>3.螺旋线(Helicalcurve)<br />
+圆柱坐标（cylindrical）方程r=ttheta=10+t*(20<em>360) z=t</em>3</p>
+<p>4.蝴蝶曲线<br />
+球坐标方程rho = 8 * t theta = 360 * t* 4 phi = -360 * t * 8</p>
+<p>5.渐开线<br />
+笛卡尔坐标系方程r=1 ang=360<em>ts=2</em>pi<em>r</em>t x0=s<em>cos(ang) y0=s</em>sin(ang) x=x0+s<em>sin(ang)y=y0-s</em>cos(ang) z=0</p>
+<p>6.螺旋线<br />
+笛卡儿坐标方程x = 4 * cos( t <em>(5</em>360)) y = 4 * sin ( t <em>(5</em>360)) z = 10*t</p>
+<p>7.对数曲线<br />
+笛卡尔坐标系方程z=0 x = 10<em>t y =log(10</em>t+0.0001)</p>
+<p>8.球面螺旋线<br />
+球坐标系方程rho=4 theta=t<em>180phi=t</em>360*20</p>
+<p>9.双弧外摆线<br />
+笛卡尔坐标方程l=2.5 b=2.5x=3<em>b</em>cos(t<em>360)+l</em>cos(3<em>t</em>360)Y=3<em>b</em>sin(t<em>360)+l</em>sin(3<em>t</em>360)</p>
+<p>10.星行线<br />
+笛卡尔坐标方程a=5 x=a*(cos(t*360))<sup>3y=a*(sin(t*360))</sup>3</p>
+<p>11.心脏线<br />
+圓柱坐标方程a=10 r=a*(1+cos(theta))theta=t*360</p>
+<p>12.圆内螺旋线<br />
+柱座标系方程theta=t<em>360r=10+10</em>sin(6<em>theta) z=2</em>sin(6*theta)</p>
+<p>13.正弦曲线<br />
+笛卡尔坐标系方程x=50<em>t y=10</em>sin(t*360)z=0</p>
+<p>14.太阳线（这本来是做别的曲线的，结果做错了，就变成这样了）</p>
+<p>15.费马曲线（有点像螺纹线）<br />
+数学方程r＊r =a<em>a</em>theta<br />
+圓柱坐标</p>
+<ul>
+<li>方程1:theta=360<em>t</em>5a=4r=a<em>sqrt(theta</em>180/pi)</li>
+<li>方程2:theta=360<em>t</em>5a=4r=-a<em>sqrt(theta</em>180/pi) 由于Pro/e只能做连续的曲线，所以只能分两次做</li>
+</ul>
+<p>16.Talbot 曲线<br />
+笛尔尔坐标方程theta=t<em>360a=1.1b=0.666c=sin(theta)f=1x= (a</em>a+f<em>f</em>c<em>c)<em>cos(theta)/ay =(a</em>a-2</em>f+f<em>f</em>c*c)*sin(theta)/b</p>
+<p>17.4叶线（一个方程做的，没有复制）</p>
+<p>18.Rhodonea 曲线<br />
+笛卡尔坐标系方程theta=t<em>360</em>4x=25+(10-6)<em>cos(theta)+10</em>cos((10/6-1)*theta)y=25+(10-6)<em>sin(theta)-6</em>sin((10/6-1)*theta)</p>
+<p>19.抛物线<br />
+笛卡儿坐标方程x =(4 *t) y =(3 * t) + (5 * t ^2) z =0</p>
+<p>20.螺旋线<br />
+圓柱坐标方程r = 5 theta = t<em>1800 z=(cos(theta-90))+24</em>t</p>
+<p>21.三叶线<br />
+圆柱坐标方程a=1theta=t<em>380b=sin(theta)r=a</em>cos(theta)<em>(4</em>b*b-1)</p>
+<p>22.外摆线<br />
+笛卡尔坐标方程theta=t<em>720</em>5b=8a=5x=(a+b)<em>cos(theta)-b</em>cos((a/b+1)*theta)y=(a+b)<em>sin(theta)-b</em>sin((a/b+1)*theta)z=0</p>
+<p>23.Lissajous 曲线<br />
+theta=t<em>360a=1b=1c=100n=3x=a</em>sin(n<em>theta+c)y=b</em>sin(theta)</p>
+<p>24.长短幅圆内旋轮线<br />
+笛卡尔坐标方程a=5b=7c=2.2theta=360<em>t</em>10x=(a-b)<em>cos(theta)+c</em>cos((a/b-1)*theta)y=(a-b)<em>sin(theta)-c</em>sin((a/b-1)*theta)</p>
+<p>25.长短幅圆外旋轮线<br />
+笛卡尔坐标方程theta=t<em>360</em>10a=5b=3c=5x=(a+b)<em>cos(theta)-c</em>cos((a/b+1)*theta)y=(a+b)<em>sin(theta)-c</em>sin((a/b+1)*theta)</p>
+<p>26.三尖瓣线<br />
+a=10x =a*(2<em>cos(t</em>360)+cos(2<em>t</em>360))y =a*(2<em>sin(t</em>360)-sin(2<em>t</em>360))</p>
+<p>27.概率曲线<br />
+笛卡尔坐标x = t*10-5y =exp(0-x^2)</p>
+<p>28.箕舌线<br />
+笛卡尔坐标系a = 1x = -5 + t<em>10y =8</em>a<sup>3/(x</sup>2+4*a^2)</p>
+<p>29.阿基米德螺线<br />
+柱坐标a=100theta = t<em>400r =a</em>theta</p>
+<p>30.对数螺线<br />
+柱坐标theta = t<em>360</em>2.2a = 0.005r =exp(a*theta)</p>
+<p>31.蔓叶线<br />
+笛卡尔坐标系a=10y=t<em>100-50solvex^3 =y^2</em>(2*a-x)for x</p>
+<p>32.tan曲线<br />
+笛卡尔坐标系x = t<em>8.5 -4.25y =tan(x</em>20)</p>
+<p>33.双曲余弦<br />
+x = 6*t-3y =(exp(x)+exp(0-x))/2</p>
+<p>34.双曲正弦<br />
+x = 6*t-3y =(exp(x)-exp(0-x))/2</p>
+<p>35.双曲正切<br />
+x = 6*t-3y =(exp(x)-exp(0-x))/(exp(x)+exp(0-x))</p>
+<p>36.一峰三驻点曲线<br />
+x =3*t-1.5y=(x<sup>2-1)</sup>3+1</p>
+<p>37.八字曲线<br />
+x = 2 * cos ( t <em>(2</em>180)) y = 2* sin ( t <em>(5</em>360)) z = 0</p>
+<p>38.螺旋曲线<br />
+r=t*(10<em>180)+1theta=10+t</em>(20*180)z=t</p>
+<p>39.圆<br />
+x = cos ( t <em>(5</em>180)) y = sin ( t*(5*180)) z = 0</p>
+<p>40.封闭球形环绕曲线<br />
+rho=2theta=360<em>tphi=t</em>360*10</p>
+<p>41.柱坐标螺旋曲线<br />
+x = 100<em>t * cos ( t <em>(5</em>180))y = 100</em>t * sin ( t <em>(5</em>180)) z = 0</p>
+<p>42.蛇形曲线<br />
+x = 2 * cos ( (t+1) <em>(2</em>180)) y= 2 * sin ( t <em>(5</em>360)) z = t*(t+1)</p>
+<p>43.8字形曲线柱坐标<br />
+theta =t<em>360r=10+(8</em>sin(theta))^2</p>
+<p>44.椭圆曲线<br />
+笛卡尔坐标系a = 10b = 20theta = t<em>360x= a</em>cos(theta)y = b*sin(theta)</p>
+<p>45.梅花曲线<br />
+柱坐标theta =t<em>360r=10+(3</em>sin(theta*2.5))^2</p>
+<p>46.另一个花曲线<br />
+theta =t<em>360r=10-(3</em>sin(theta*3))<sup>2z=4*sin(theta*3)</sup>2</p>
+<p>47.改一下就成为空间感更强的花曲线了<br />
+theta =t<em>360r=10-(3</em>sin(theta*3))<sup>2z=(r*sin(theta*3))</sup>2</p>
+<p>48.螺旋上升的椭圆线<br />
+a = 10b = 20theta = t<em>360</em>3x= a<em>cos(theta)y = b</em>sin(theta)z=t*12</p>
+<p>49.甚至这种螺旋花曲线<br />
+theta =t<em>360</em>4r=10+(3<em>sin(theta</em>2.5))^2z = t*16</p>
+<p>50 鼓形线</p>
+<p>笛卡尔方程r=5+3.3<em>sin(t</em>180)+ttheta=t<em>360</em>10z=t*10</p>
+<p>51 长命锁曲线</p>
+<p>笛卡尔方程a=1<em>t</em>359.5b=q2<em>t</em>360c=q3<em>t</em>360rr1=w1rr2=w2rr3=w3x=rr1<em>cos(a)+rr2</em>cos(b)+rr3<em>cos©y=rr1</em>sin(a)+rr2<em>sin(b)+rr3</em>sin©</p>
+<p>52 簪形线</p>
+<p>球坐标方程rho=200<em>ttheta=900</em>tphi=t<em>90</em>10</p>
+<p>53.螺旋上升曲线<br />
+r=t<sup>10theta=t</sup>3<em>360</em>6<em>3+t<sup>3*360*3*3z=t</sup>3</em>(t+1)</p>
+<p>54.蘑菇曲线<br />
+rho=t<sup>3+t*(t+1)theta=t*360phi=t</sup>2<em>360</em>20*20</p>
+<p>55.8字曲线<br />
+a=1b=1x=3<em>b</em>cos(t<em>360)+a</em>cos(3<em>t</em>360)Y=b<em>sin(t</em>360)+a<em>sin(3</em>t*360)</p>
+<p>56.梅花曲线<br />
+theta=t<em>360r=100+50</em>cos(5<em>theta)z=2</em>cos(5*theta)</p>
+<p>57.桃形曲线<br />
+rho=t<sup>3+t*(t+1)theta=t*360phi=t</sup>2<em>360</em>10*10</p>
+<p>58.碟形弹簧<br />
+建立環境:pro/e<br />
+圓柱坐 r = 5 theta = t<em>3600 z=(sin(3.5</em>theta-90))+24</p>
+<p>59.环形二次曲线<br />
+笛卡儿方程x=50<em>cos(t</em>360)y=50<em>sin(t</em>360)z=10<em>cos(t</em>360*8)</p>
+<p>60 蝶线<br />
+球坐标rho=4<em>sin(t</em>360)+6<em>cos(t</em>360^2)theta=t<em>360phi=log(1+t</em>360)<em>t</em>360</p>
+<p>61.正弦周弹簧<br />
+笛卡尔ang1=t<em>360ang2=t</em>360<em>20x=ang1</em>2*pi/360y=sin(ang1)*5+cos(ang2)z=sin(ang2)</p>
+<p>62.环形螺旋线<br />
+x=（50+10<em>sin(t</em>360<em>15))<em>cos(t</em>360)y=(50+10</em>sin(t<em>360</em>15))<em>sin(t</em>360)z=10<em>cos(t</em>360*5)</p>
+<p>63.内接弹簧<br />
+x=2<em>cos(t</em>360<em>10)+cos(t</em>180<em>10)y=2</em>sin(t<em>360</em>10)+sin(t<em>180</em>10)z=t*6</p>
+<p>64.多变内接式弹簧<br />
+x=3<em>cos(t</em>360<em>8)-1.5</em>cos(t<em>480</em>8)y=3<em>sin(t</em>360<em>8)-1.5</em>sin(t<em>480</em>8)z=t*8</p>
+<p>65.柱面正弦波线<br />
+柱坐标方程r=30theta=t<em>360z=5</em>sin(5*theta-90)</p>
+<p>66.ufo （漩涡线）<br />
+球坐标rho=t<em>20^2theta=t</em>log(30)<em>60phi=t</em>7200</p>
+<p>67.手把曲线<br />
+thta0=t<em>360thta1=t</em>360<em>6r0=400r1=40r=r0+r1</em>cos(thta1)x=r<em>cos(thta0)y=r1</em>sin(thta1)z=0</p>
+<p>68.篮子<br />
+圆柱坐标 r=5+0.3<em>sin(t</em>180)+t theta=t<em>360</em>30z=t*5</p>
+<p>69.圆柱齿轮齿廓的渐开线方程<br />
+afa=60<em>tx=10</em>cos(afa)+pi<em>10</em>afa/180<em>sin(afa)x=10</em>sin(afa)-pi<em>10</em>afa/180*cos(afa)z=0<br />
+afa为压力角，取值范围是0到60，10为基圆半径。</p>
+<p>70.对数螺旋曲线<br />
+柱坐标r=sqrt(theta)theta=t<em>360</em>30z=0</p>
+<p>71.罩形线<br />
+球坐标rho=4theta=t<em>60phi=t</em>360*10</p>
+<p>72.向日葵线<br />
+theta=t<em>360r=30+10</em>sin(theta*30)z=0</p>
+<p>73.太阳线<br />
+r=1.5<em>cos(50</em>theta)+1theta=t*360z=0</p>
+<p>74.塔形螺旋线<br />
+r=t<em>80+50theta=t</em>360<em>10z=t</em>80</p>
+<p>75.花瓣线<br />
+球坐标rho=t<em>20theta=t</em>360<em>90phi=t</em>360*10</p>
+<p>76.双元宝线<br />
+r=sin(t<em>360</em>10)+30theta=sin(t<em>360</em>15)z=sin(t*3)</p>
+<p>77.阿基米德螺线的变形（自己想得）不知前面有没有？？:what<br />
+柱坐标theta=360<em>2</em>(t-0.5)r=10*thetaz=0</p>
+<p>78.改过来的渐开线方程<br />
+r=20ang =t<em>360x=r</em>cos(ang)+2<em>pi</em>r<em>t</em>sin(ang)y=r<em>sin(ang)-2</em>pi<em>r</em>t*cos(ang)z=0</p>
+<p>79.双鱼曲线<br />
+球坐标系rho=30+10<em>sin(t</em>360<em>10)theta=t</em>180<em>cos(t</em>360<em>10)phi=t</em>360*30</p>
+<p>80.蝴蝶结曲线<br />
+x=200<em>t</em>sin(t<em>3600)y=250</em>t<em>cos(t</em>3600)z=300<em>t</em>sin(t*1800)</p>
+<p>81.两相望曲线<br />
+球坐标系rho=30theta=t<em>360</em>cos(t<em>360</em>20)phi=t<em>360</em>20</p>
+<p>82.小蜜蜂<br />
+笛卡尔坐标系x=cos(t<em>360)+cos(3</em>t<em>360)Y=sin(t</em>360)+sin(5<em>t</em>360)</p>
+<p>83.弯月<br />
+x=cos(t<em>360)+cos(2</em>t<em>360)Y=sin(t</em>360)<em>2+sin(t</em>360)*2</p>
+<p>84.热带鱼<br />
+a=5x=(a*(cos(t<em>360</em>3))^4)<em>t y=(a</em>(sin(t<em>360</em>3))^4)*t</p>
+<p>85.燕尾剪<br />
+x=3<em>cos(t</em>360<em>4) y=3</em>sin(t<em>360</em>3) z=t</p>
+<p>86.天蚕丝<br />
+theta=t<em>3600 r=(cos(360</em>t<em>20)</em>.5*t+1)*t</p>
+<p>87.心电图<br />
+圆柱坐标系 r=sin(t<em>360</em>2)+.2 theta=10+t*(6<em>360)z=t</em>3</p>
+<p>88.变化后的星形线<br />
+笛卡尔坐标系theta=t<em>360x=10</em>cos(theta)<sup>3y=10*sin(theta)</sup>3z=cos(theta)</p>
+<p>89.小白兔<br />
+theta=t<em>360-90r=cos(360</em>(t/(1+t^(6.5)))<em>6</em>t)*3.5+5</p>
+<p>90.大家好<br />
+theta=t<em>360+180r=cos(360</em>t^3*6)*2+5</p>
+<p>91.蛇形线<br />
+笛卡尔坐标系x=2<em>cos(t</em>360<em>3)<em>ty=2</em>sin(t</em>360*3)<em>tz=(sqrt(sqrt(sqrt(t))))^3</em>5</p>
+<p>92.五环<br />
+柱坐标theta=t<em>360</em>4r=cos(t<em>360</em>5)+1</p>
+<p>93.蜘蛛网<br />
+柱坐标theta=t<em>360</em>5r=t<em>sin(t</em>360*25)*5+8</p>
+<p>94.次声波<br />
+笛卡尔:x=t<em>5y=t</em>cos(t<em>360</em>8)</p>
+<p>95.十字渐开线<br />
+柱坐标theta=t<em>360</em>4r=(cos(t<em>360</em>16)<em>0.5</em>t+1)*t</p>
+<p>96.内五环<br />
+笛卡尔theta=t<em>360</em>4x=2+(10-5)<em>cos(theta)+6</em>cos((10/6-1)*theta)y=2+(10-5)<em>sin(theta)-6</em>sin((10/6-1)*theta)</p>
+<p>97.蜗轨线<br />
+柱坐标theta=t<em>360</em>2r=cos(t<em>360</em>30)<em>t</em>0.5+t*2</p>
+<h2 id="证明方法"><a class="markdownIt-Anchor" href="#证明方法"></a> 证明方法</h2>
+<blockquote></blockquote>
+<h2 id="延申-extensions"><a class="markdownIt-Anchor" href="#延申-extensions"></a> 延申 Extensions</h2>
+<blockquote></blockquote>
+<h1 id="结论-conclusion"><a class="markdownIt-Anchor" href="#结论-conclusion"></a> 结论 Conclusion</h1>
+<h2 id="定性"><a class="markdownIt-Anchor" href="#定性"></a> 定性</h2>
+<blockquote></blockquote>
+<h2 id="定量"><a class="markdownIt-Anchor" href="#定量"></a> 定量</h2>
+<blockquote></blockquote>
+<h1 id="感谢-acknowledgments"><a class="markdownIt-Anchor" href="#感谢-acknowledgments"></a> 感谢 Acknowledgments</h1>
+<blockquote></blockquote>
+<h1 id="参考-reference"><a class="markdownIt-Anchor" href="#参考-reference"></a> 参考 Reference</h1>
+<h2 id="website"><a class="markdownIt-Anchor" href="#website"></a> WebSite</h2>
+<blockquote></blockquote>
+<h2 id="blog"><a class="markdownIt-Anchor" href="#blog"></a> Blog</h2>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="http://blog.sina.com.cn/s/blog_803647b10102w915.html">@sina_blog_文禾学术_ProE各种螺旋线绘制</a></p>
+</blockquote>
+<h2 id="paper"><a class="markdownIt-Anchor" href="#paper"></a> Paper</h2>
+<blockquote></blockquote>
+<h2 id="book"><a class="markdownIt-Anchor" href="#book"></a> Book</h2>
+<blockquote></blockquote>
+<h2 id="video"><a class="markdownIt-Anchor" href="#video"></a> Video</h2>
+<blockquote></blockquote>
+<h2 id="audio"><a class="markdownIt-Anchor" href="#audio"></a> Audio</h2>
+<blockquote></blockquote>
+<h2 id="other"><a class="markdownIt-Anchor" href="#other"></a> Other</h2>
+<blockquote></blockquote>
+<h1 id="附录-appendix"><a class="markdownIt-Anchor" href="#附录-appendix"></a> 附录 Appendix</h1>
+<h2 id="qa"><a class="markdownIt-Anchor" href="#qa"></a> Q&amp;A</h2>
+<blockquote></blockquote>
+<h2 id="website-2"><a class="markdownIt-Anchor" href="#website-2"></a> WebSite</h2>
+<ul>
+<li>本人<a href="https://leochen12138-a.github.io">https://leochen12138-a.github.io</a></li>
+</ul>
+<h2 id="download"><a class="markdownIt-Anchor" href="#download"></a> Download</h2>
+<p>[toc]</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Leo Chen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://leochen12138-a.github.io/p/ef2c3c38/index.html">https://leochen12138-a.github.io/p/ef2c3c38/index.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客著作权归作者所有。除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。未经允许，严禁转载。版权所有，侵权必究。转载请注明来源 <a href="https://leochen12138-a.github.io" target="_blank">Leochen的博客</a>！。</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%87%BD%E6%95%B0/">函数</a><a class="post-meta__tags" href="/tags/%E6%9B%B2%E7%BA%BF/">曲线</a><a class="post-meta__tags" href="/tags/%E5%87%A0%E4%BD%95/">几何</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="google,facebook,twitter,linkedin,douban,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><button class="reward-button" type="button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="./img/loading.gif" data-original="/img/wechat.jpg" alt="wechat" onclick="window.open('/img/wechat.jpg')"/><div class="post-qr-code__desc">wechat</div></li><li class="reward-item"><img class="post-qr-code__img" src="./img/loading.gif" data-original="/img/alipay.jpg" alt="alipay" onclick="window.open('/img/alipay.jpg')"/><div class="post-qr-code__desc">alipay</div></li></ul></div></button></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/p/ba14d865/index.html"><img class="next-cover" data-src="./img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">VSC 相关</div></div></a></div></nav><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Valine</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">Disqusjs</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="Valine"><div class="vcomment" id="vcomment"></div><script>function loadvaline () {  
+  var requestSetting = function (from,set) {
+    var from = from
+    var setting = set.split(',').filter(function(item){
+    return from.indexOf(item) > -1
+    });
+    setting = setting.length == 0 ? from :setting;
+    return setting
+  }
+
+  var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+  var requiredFields = requestSetting(['nick','mail'],'nick,mail')
+
+  function initValine () {
+    window.valine = new Valine({
+      el:'#vcomment',
+      appId: '3m7yJsw2QPlNnB9ve3shBVvV-gzGzoHsz',
+      appKey: 'c8UJOIYc6DCOlB2PK5XWVwBz',
+      placeholder: '欢迎 issue, 留言区勘误',
+      avatar: 'monsterid',
+      meta: guestInfo,
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      requiredFields: requiredFields
+    });
+  }
+  loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || false) {
+  window.addEventListener('load', loadvaline)
+}
+else {
+  function loadOtherComment () {
+    loadvaline()
+  }
+}</script></div><div class="comments-items-2" data-name="Disqusjs"><div id="disqus_thread"></div><script>function loadDisqusjs () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+
+  loadScript('https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js', function() {
+    var dsqjs = new DisqusJS({
+      shortname: '板仔的编程生活',
+      siteName: 'leochen12138.top',
+      identifier: 'p/ef2c3c38/index.html',
+      url: 'https://leochen12138-a.github.io/p/ef2c3c38/index.html',
+      title: '有趣的曲线集',
+      api: 'rmYR0LW7he8PHZMYEEySsVcjQPUrPYbmY1Huqos7xmI8JTfZASaCaKsVwusWk1OC',
+      apikey: 'MyW9ssgu5di8PmzjLdXLJv6zyX424bQp2I7ylPYrlBkl2AoVQXSpGHyzDRabynXQ',
+      nocomment: '',
+      admin: '',
+      adminLabel: ''
+    });
+  })
+}
+
+if ('Valine' === 'Disqusjs' || false) {
+  window.addEventListener('load', loadDisqusjs)
+}
+else {
+  function loadOtherComment () {
+    loadDisqusjs()
+  }
+}
+
+</script></div></div></div></article></main><footer id="footer" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Leo Chen</div><div class="framework-info"><span>驱动 </span><a target="_blank" rel="noopener" href="https://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://leochen12138-a.github.io">blog</a>!</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css"><script>$(function () {
+  $('span.katex-display').wrap('<div class="katex-wrap"></div>')
+})</script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="true" src="/js/third-party/piao.js"></script><script id="canvas_nest" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="true" src="/js/third-party/canvas-nest.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/third-party/click_heart.js"></script><script src="/js/search/local-search.js"></script><script>if (document.getElementsByClassName('mermaid').length) {
+  loadScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js',function () {
+    mermaid.initialize({
+      theme: 'dark',
+  })
+})
+}</script><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/5f1e51ac.js","daovoice")
+</script><script>var isChatBtn = true
+daovoice('init', {
+  app_id: '5f1e51ac',},{
+  launcher: { 
+     disableLauncherIcon: isChatBtn // 悬浮 ICON 是否显示
+  },
+});
+daovoice('update');
+
+if (isChatBtn) {
+  var chatBtn = document.getElementById("chat_btn")
+  chatBtn.addEventListener("click", function(){
+    daovoice('show')
+  });
+} else {
+  if (true) {
+    function chatBtnHide () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: true // 悬浮 ICON 是否显示
+        },
+      });
+    }
+    function chatBtnShow () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: false // 悬浮 ICON 是否显示
+        },
+      });
+    }
+  }
+}</script>
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        const hasAttr = (e,a) => a.some(_=> e.attr(_)!==undefined);
+        $('a').each(function() {
+          const $this = $(this);
+          if(hasAttr($this,["data-fancybox","ignore-external-link"])) return;
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'leochen1213-a.github.io' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+href+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body></html>

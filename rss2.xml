@@ -15,8 +15,60 @@
     <atom:link href="https://leochen12138-a.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习,记录,测试</description>
-    <pubDate>Thu, 25 Mar 2021 04:35:56 GMT</pubDate>
+    <pubDate>Mon, 29 Mar 2021 14:14:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>有趣的曲线集</title>
+      <link>https://leochen12138-a.github.io/p/ef2c3c38/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/ef2c3c38/index.html</guid>
+      <pubDate>Mon, 29 Mar 2021 13:10:42 GMT</pubDate>
+      
+      <description>这是一篇 有趣的曲线集 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E5%87%BD%E6%95%B0/">函数</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E5%87%BD%E6%95%B0/%E6%9B%B2%E7%BA%BF/">曲线</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%87%BD%E6%95%B0/">函数</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%9B%B2%E7%BA%BF/">曲线</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%87%A0%E4%BD%95/">几何</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/ef2c3c38/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>VSC 相关</title>
+      <link>https://leochen12138-a.github.io/p/ba14d865/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/ba14d865/index.html</guid>
+      <pubDate>Fri, 26 Mar 2021 06:12:46 GMT</pubDate>
+      
+      <description>这是一篇 VSC 相关 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/DvoOps/">DvoOps</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/VSC/">VSC</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/ba14d865/index.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>博客声明</title>
