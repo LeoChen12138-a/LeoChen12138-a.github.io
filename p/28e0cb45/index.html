@@ -1,0 +1,1651 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WebSite | Leochen的博客</title><meta name="description" content="这是一篇 WebSite 的记录"><meta name="keywords" content="Search,Website"><meta name="author" content="Leo Chen"><meta name="copyright" content="Leo Chen"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://leochen12138-a.github.io/p/28e0cb45/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="WebSite"><meta property="og:url" content="https://leochen12138-a.github.io/p/28e0cb45/"><meta property="og:site_name" content="Leochen的博客"><meta property="og:description" content="这是一篇 WebSite 的记录"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2021-03-30T13:43:32.000Z"><meta property="article:modified_time" content="2021-03-30T14:01:52.154Z"><meta name="twitter:card" content="summary"><link rel="manifest" href="/img/pwa/manifest.json"/><meta name="theme-color" content="#fff"/><meta name="msapplication-TileColor" content="#fff"/><link rel="apple-touch-icon" sizes="180x180" href="/img/pwa/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/pwa/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/pwa/16.png"/><link rel="mask-icon" href="/img/pwa/safari-pinned-tab.svg" color="#5bbad5"/><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = '1'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="prev" title="RSS_Install" href="https://leochen12138-a.github.io/p/a3b42f00/index.html"><link rel="next" title="GoogleSearch" href="https://leochen12138-a.github.io/p/b8b8e0fa/index.html"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: true    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2021-03-30 22:01:52'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Leochen的博客" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Leochen的博客" type="application/rss+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="./img/loading.gif" data-original="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">108</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">132</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">90</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/box/"><i class="fa-fw fas fa-box"></i><span> 百宝箱</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-book-reader"></i><span> 列表</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 文娱</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Demo/"><i class="fa-fw fas fa-universal-access"></i><span> Demo</span></a></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#keywords-hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%BA%91%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E5%9F%9F%E5%90%8D"><span class="toc-text"> keywords: [hexo,静态博客,云服务,网站开发,域名]</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#img-%E5%9B%BE%E5%BA%8A%E8%B7%AF%E5%BE%84-%E4%B8%BB%E9%A2%98%E6%96%87%E4%BB%B6%E5%A4%B9sourceimagesxxxjpg"><span class="toc-text"> img: # 图床路径 &amp; 主题文件夹&#x2F;source&#x2F;images&#x2F;xxx.jpg</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#top-false"><span class="toc-text"> top: false</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#coverimg-%E5%8A%A0%E5%85%A5%E8%BD%AE%E6%92%AD%E7%9A%84%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87-imagesxxxjpg"><span class="toc-text"> coverimg: # 加入轮播的文章图片 images&#x2F;xxx.jpg</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#password-sha256%E5%AF%86%E7%A0%81%E6%BF%80%E6%B4%BBverifypassword"><span class="toc-text"> password: # sha256密码，激活verifyPassword</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#summary-webpush%E6%88%AA%E5%8F%96%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E6%91%98%E8%A6%81%E9%83%A8%E5%88%86"><span class="toc-text"> summary:  webpush截取的自定义摘要部分</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#-categorie1"><span class="toc-text"> - categorie1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#-categorie2"><span class="toc-text"> - categorie2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#sitemap"><span class="toc-text"> sitemap:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#reprintpolicy-cc_by_nc_sa"><span class="toc-text"> reprintPolicy: cc_by_nc_sa</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95-toc"><span class="toc-text"> 目录 Toc</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E9%A2%98-tittle"><span class="toc-text"> 标题 Tittle</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%98%E8%A6%81-abstract"><span class="toc-text"> 摘要 Abstract</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%AF%8D-keywords"><span class="toc-text"> 关键词 Keywords</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%AA%E8%AE%BA-introduction"><span class="toc-text"> 绪论 Introduction</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E4%BD%93-main-body"><span class="toc-text"> 主体 Main body</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#31-%E5%9F%BA%E7%A1%80"><span class="toc-text"> 3.1. 基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#32-%E7%AE%97%E6%B3%95"><span class="toc-text"> 3.2. 算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#33-%E8%AE%BA%E6%96%87"><span class="toc-text"> 3.3. 论文</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#34-python"><span class="toc-text"> 3.4. Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#35-%E7%AB%99%E7%82%B9"><span class="toc-text"> 3.5. 站点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#36-%E5%AD%A6%E4%B9%A0"><span class="toc-text"> 3.6. 学习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#37-%E7%A8%8B%E5%BA%8F"><span class="toc-text"> 3.7. 程序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#38-%E7%AB%99%E7%82%B9"><span class="toc-text"> 3.8. 站点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#39-%E6%A3%80%E7%B4%A2"><span class="toc-text"> 3.9. 检索</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#310-%E5%85%B6%E4%BB%96"><span class="toc-text"> 3.10. 其他</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#311-%E5%AE%98%E7%BD%91"><span class="toc-text"> 3.11. 官网</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#312-%E5%AF%BC%E8%88%AA"><span class="toc-text"> 3.12. 导航</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#313-hexo"><span class="toc-text"> 3.13. hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86-preliminaries"><span class="toc-text"> 预备知识 Preliminaries</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95"><span class="toc-text"> 研究方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1"><span class="toc-text"> 实验设计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E8%A6%81%E7%BB%93%E6%9E%9C"><span class="toc-text"> 主要结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E6%96%B9%E6%B3%95"><span class="toc-text"> 证明方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BB%B6%E7%94%B3-extensions"><span class="toc-text"> 延申 Extensions</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E8%AE%BA-conclusion"><span class="toc-text"> 结论 Conclusion</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E6%80%A7"><span class="toc-text"> 定性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E9%87%8F"><span class="toc-text"> 定量</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%84%9F%E8%B0%A2-acknowledgments"><span class="toc-text"> 感谢 Acknowledgments</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83-reference"><span class="toc-text"> 参考 Reference</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#website"><span class="toc-text"> WebSite</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#blog"><span class="toc-text"> Blog</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#paper"><span class="toc-text"> Paper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#book"><span class="toc-text"> Book</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#video"><span class="toc-text"> Video</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#audio"><span class="toc-text"> Audio</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#other"><span class="toc-text"> Other</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%99%84%E5%BD%95-appendix"><span class="toc-text"> 附录 Appendix</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#qa"><span class="toc-text"> Q&amp;A</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#website-2"><span class="toc-text"> WebSite</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#download"><span class="toc-text"> Download</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#markdown"><span class="toc-text"> Markdown</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Leochen的博客</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/box/"><i class="fa-fw fas fa-box"></i><span> 百宝箱</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-book-reader"></i><span> 列表</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 文娱</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Demo/"><i class="fa-fw fas fa-universal-access"></i><span> Demo</span></a></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">WebSite</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2021-03-30 21:43:32"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2021-03-30</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2021-03-30 22:01:52"><i class="fas fa-history fa-fw"></i> 更新于 2021-03-30</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/Search/">Search</a></span></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i><span>字数总计:</span><span class="word-count">2.5k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 10 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="/p/28e0cb45/index.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/p/28e0cb45/index.html" itemprop="commentCount"></span></a></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><hr />
+<p>title: WebSite<br />
+date: 1617111812000<br />
+author: leochen<br />
+aplayer: true<br />
+copyright: true</p>
+<h1 id="keywords-hexo静态博客云服务网站开发域名"><a class="markdownIt-Anchor" href="#keywords-hexo静态博客云服务网站开发域名"></a> keywords: [hexo,静态博客,云服务,网站开发,域名]</h1>
+<p>description: 这是一篇 WebSite 的记录 #atom.xml的描述文字</p>
+<h1 id="img-图床路径-主题文件夹sourceimagesxxxjpg"><a class="markdownIt-Anchor" href="#img-图床路径-主题文件夹sourceimagesxxxjpg"></a> img: # 图床路径 &amp; 主题文件夹/source/images/xxx.jpg</h1>
+<p>toc: true<br />
+toc_number: false<br />
+auto_open: true</p>
+<h1 id="top-false"><a class="markdownIt-Anchor" href="#top-false"></a> top: false</h1>
+<p>cover: <a target="_blank" rel="noopener" href="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg</a>  # 文章封面</p>
+<h1 id="coverimg-加入轮播的文章图片-imagesxxxjpg"><a class="markdownIt-Anchor" href="#coverimg-加入轮播的文章图片-imagesxxxjpg"></a> coverimg: # 加入轮播的文章图片 images/xxx.jpg</h1>
+<h1 id="password-sha256密码激活verifypassword"><a class="markdownIt-Anchor" href="#password-sha256密码激活verifypassword"></a> password: # sha256密码，激活verifyPassword</h1>
+<p>katex: true</p>
+<h1 id="summary-webpush截取的自定义摘要部分"><a class="markdownIt-Anchor" href="#summary-webpush截取的自定义摘要部分"></a> summary:  webpush截取的自定义摘要部分</h1>
+<p>categories:</p>
+<ul>
+<li>[父1, 子1]<br />
+tags:</li>
+<li>标签1</li>
+<li>标签2<br />
+top_img:<br />
+comment: true<br />
+sticky: 1 # 置顶<br />
+hide: false # 隐藏文章</li>
+</ul>
+<h1 id="-categorie1"><a class="markdownIt-Anchor" href="#-categorie1"></a> - categorie1</h1>
+<h1 id="-categorie2"><a class="markdownIt-Anchor" href="#-categorie2"></a> - categorie2</h1>
+<h1 id="sitemap"><a class="markdownIt-Anchor" href="#sitemap"></a> sitemap:</h1>
+<p>indexing: true  # 排除帖子在搜索范围 时设置为 false</p>
+<h1 id="reprintpolicy-cc_by_nc_sa"><a class="markdownIt-Anchor" href="#reprintpolicy-cc_by_nc_sa"></a> reprintPolicy: cc_by_nc_sa</h1>
+<hr />
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
+            <meting-js  id="5078197171" server="netease" type="playlist" autoplay="true" mutex="false" listmaxheight="340px" preload="none" theme="#ad7a86" order="random" fixed="true" listfolded="true"></meting-js>
+<p>注意:<br />
+该文来源于网络，经本人收集整理。<br />
+文章中提供的资源及下载仅供学习交流使用，请在24h内删除。<br />
+若用户违反相关法律法规造成损失，将由用户自行承担后果，本文作者将不承担一切责任。<br />
+文末附带参考链接，如需了解请自行访问。<br />
+文章内容若有雷同，不胜荣幸。<br />
+如有侵权，联系删除。</p>
+<hr />
+<h1 id="目录-toc"><a class="markdownIt-Anchor" href="#目录-toc"></a> 目录 Toc</h1>
+<p>[toc]</p>
+<h1 id="标题-tittle"><a class="markdownIt-Anchor" href="#标题-tittle"></a> 标题 Tittle</h1>
+<blockquote>
+<p>Tittle:<br />
+Author: Leochen*<br />
+Units:</p>
+</blockquote>
+<h2 id="摘要-abstract"><a class="markdownIt-Anchor" href="#摘要-abstract"></a> 摘要 Abstract</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 介绍 Introduction、材料 Materials、方法 Methods、结果 Result、讨论 Discussion</span></span><br><span class="line"><span class="comment"># 背景句 Background Sentence、主题句 Main topic Sentence、结果句 Conclusion Sentence</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>来源:<br />
+介绍:<br />
+对象:<br />
+结构:<br />
+内容:<br />
+结果:<br />
+讨论:</p>
+</blockquote>
+<h2 id="关键词-keywords"><a class="markdownIt-Anchor" href="#关键词-keywords"></a> 关键词 Keywords</h2>
+<blockquote></blockquote>
+<h2 id="绪论-introduction"><a class="markdownIt-Anchor" href="#绪论-introduction"></a> 绪论 Introduction</h2>
+<blockquote>
+<p>预备信息:<br />
+前人工作:<br />
+知识空白:<br />
+动机:<br />
+目的:</p>
+</blockquote>
+<h1 id="主体-main-body"><a class="markdownIt-Anchor" href="#主体-main-body"></a> 主体 Main body</h1>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 预备知识 Preliminaries、研究方法(原理、理论、条件、对象、材料、工艺、手段、装备、程序)、实验设计(原理、建模、设备)、主要结果 Main result(预取结果、实验结果)、证明方法 The outline of proofs、延申 Extensions</span></span><br></pre></td></tr></table></figure>
+<h2 id="31-基础"><a class="markdownIt-Anchor" href="#31-基础"></a> 3.1. 基础</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">文档</th>
+<th style="text-align:center">博客</th>
+<th style="text-align:center">社区</th>
+<th style="text-align:center">组织</th>
+<th style="text-align:center">在线实验室</th>
+<th style="text-align:center">Github</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.runoob.com/">菜鸟教程</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/">廖雪峰</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/">Github</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.linux.org/">Linux</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.shiyanlou.com/">实验楼</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://git-awards.com/users">Git Awards</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.w3school.com.cn/">W3school</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/home.html">阮一峰</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://stackoverflow.com/">stackoverflow</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.openstack.org/">OpenStack</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://labs.play-with-docker.com/">docker</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://githubrank.com/">Github Rank(China)</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://devhints.io/">Devhints</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.wenjinyu.me/">温锦瑜</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://nanti.jisuanke.com/oi">计蒜客</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://pychina.org/">PyChina</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.atlassian.com/git/tutorials">Become a git guru</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wangchujiang.com/github-rank/repos.html">Github Repositories Ranking</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://devdocs.io/">DevDocs</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cuiqingcai.com/">崔庆才</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://news.ycombinator.com/">Hacker News</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cn.pycon.org/">PyCon China</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://play.google.com/console/about/">Google Play Console</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/marketplace?type=actions">Github Actions Marketplace</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.wikiwand.com/zh/Markdown">Markdown</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://morvanzhou.github.io/">莫烦Python</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.reddit.com/">Reddit</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://weekly.pychina.org/">蟒周刊</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://colab.research.google.com/">Google colab</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://shields.io/">shield</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://mermaid-js.github.io/mermaid/#/">Mermaid</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.santostang.com/">Santos Tang</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.csdn.net/">CSDN</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.usenix.org/conference/osdi20">OSDI '20 - USENIX</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ibm.com/cn-zh/cloud">IBM云计算</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://unbug.github.io/codelf/">CODELF</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://pythonhunter.org/">捕蛇者说</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.cnblogs.com/">博客园</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.sosp.org/">SOSP.ORG</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://visualstudio.microsoft.com/services/visual-studio-codespaces/">Visual Studio Codespaces</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/ggreer/the_silver_searcher">The Silver Searcher</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://vip.fxxkpython.com/">小帅b</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.v2ex.com/">V2EX</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.usenix.org/">USENIX</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.onlinegdb.com/online_c++_compiler">Online C++ Compiler </a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.toptal.com/developers/gitignore">gitignore模板</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wistbean.github.io/">wistbean</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://juejin.im/">掘金</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.sigops.org/awards/hof/">ACM SIGOPS</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://vim-adventures.com/">Vim</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://git.io/">git短链接</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.typescriptlang.org/docs/home">TypeScript</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zlovezl.cn/">Piglei</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://segmentfault.com/">segmentfault</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://hotos19.sigops.org/">HOTOS XVII</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://katacoda.com/">katacoda</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://gitlist.org/">gitlist</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.rust-lang.org/zh-CN/learn">RUST</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tendcode.com/">Tend to Code</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.oschina.net/">开源中国</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ifea.com/p/industryawards/halloffameaward">Hall of Fame Award</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://lab.github.com/">Github Lab</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wakatime.com/login?next=https%3A%2F%2Fwakatime.com%2Fsettings%2Faccount">wakatime</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.php.net/manual/zh/index.php">PHP</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zmrenwu.com/">追梦人物</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.iteye.com/">ITeye</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.usenix.org/publications/proceedings">USENIX Security '20</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://learngitbranching.js.org/">GIT branch</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/actions">Github Actions</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.python.org/3/">Python</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.the5fire.com/">the5fire</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.51cto.com/">51CTO</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://itch.io/">itch.io</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://projector.tensorflow.org/">tensorflow</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://forum.taichi.graphics/">Taichi</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dongwm.com/">小明明S À DOMICILE</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.itpub.net/">ITPUB</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.docker.com/">Docker</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.cs.ryerson.ca/~aharley/vis/conv/">神经网络</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://en.cppreference.com/w/">C/C++</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://foofish.net/">Python之禅</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jianshu.com/">简书</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://jupyter.org/try">Jupyter</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/dotnet/csharp/">C#</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.spiderpy.cn/">烂笔头j hao104</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer">云+社区</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://colab.research.google.com/">Google lab</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.oracle.com/en/java/">Java</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://xianyucoder.cn/">咸鱼自我满足的日常</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://yq.aliyun.com/">云栖社区</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://gke.mybinder.org/">Binder</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.w3cschool.cn/swift/">Swift</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://blog.ansheng.me/">AnSheng</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://aijishu.com/">极术社区</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.autodraw.com/">Auto Draw</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ruby-doc.com/">Ruby</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://xiaxichen.com/">夏溪辰</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://fishc.com.cn/">鱼C工作室</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://eulertour.com/">manim eulerv2</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://studygolang.com/pkgdoc">GO</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.makcyun.top/">高级农民工</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://bbs.pcbeta.com/">远景论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://eulertour.com/">Manim1</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.r-project.org/other-docs.html">R</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cuijiahua.com/">Jack Cui</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bbs.125.la/">精易论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://manim.online/">Manim2</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/sql/?view=sql-server-ver15">SQL</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.pengzhihui.xyz/">稚晖的个人站</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.m213.cn/">米粒小屋</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ww2.mathworks.cn/help/matlab/index.html">MATLAB</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://terrytao.wordpress.com/">terrytao</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bbs.pediy.com/">看雪论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://nodejs.org/en/docs/">Node.js</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.matrix67.com/blog/">Matrix67</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bbs2.seikuu.com/">星空论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/dotnet/">.NET</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ying-zhang.github.io/">Ying</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.repaik.com/">睿派克技术论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://redisdoc.com/">Redis</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cai-hust.github.io/">cai</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://bbs.gfan.com/">机锋论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.mongodb.com/manual/">MongoDB</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://blog.laoooo.cn:88/">Lao</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.52pojie.cn/">吾爱破解</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.viseator.com/">viseator</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://games-cn.org/games201/">计算机图形学与混合现实研讨会</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.postgres.cn/v2/document">PostgreSQL</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://jerryc.me/">JerryC</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.guide2research.com/">guide2research</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://developer.android.google.cn/reference">Android</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://blog.sky03.cn/">skyo3</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://discuss.gluon.ai/">Gluon</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation">ios</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.antmoe.com/">小康博客</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.openprocessing.org/">OpenProcessing</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://netsmell.com/apps/helloworldcollection/">Hello World大全</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://sunhwee.com/">洪卫の博客</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://forum.processing.org/two/">Prqcessing Forum</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://manim.ml/">manim</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://yafine-blog.cn/">过客～励む</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://forum.taichi.graphics/">Taichi</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">processing</td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://xiabor.com/">MuJin</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://chinese.freecodecamp.org/forum/t/freecodecamp/8">freeCodeCamp中文社区</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://how2j.cn/">How2J</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zhangxinxu.com/">鑫空间，鑫生活</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.qianduandaxue.com/">前端网</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.dotcpp.com/oj/contest.html">C语言网</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html">汤姆大叔</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://hackaday.com/">hackday</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.dssz.org/">dssz</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://p3terx.com/">P3TERX ZONE</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.ezpro.pro/">路由论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ymcn.org/">源码中国</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://hwdong.net/">教小白精通编程</a></td>
+<td style="text-align:center"><a href="ttps://www.newsmth.net/">水木社区</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.eenot.com/">外星人源码论坛</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://moe.best/">神代綺凜</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://glidedsky.com/">镀金的天空</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.iocoder.cn/">芋道源码</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bbs.nightteam.cn/">夜幕爬虫安全论坛</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="32-算法"><a class="markdownIt-Anchor" href="#32-算法"></a> 3.2. 算法</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基础</th>
+<th style="text-align:center">项目</th>
+<th style="text-align:center">比赛</th>
+<th style="text-align:center">测试平台</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.algomooc.com/">Algomooc</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://pe-cn.github.io/about/">欧拉计划</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.hackerrank.com/">HackerRank</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.spoj.com/">SPOJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://algorithm-visualizer.org/">Algorithm Visualizer</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://qiao.github.io/PathFinding.js/visual/">PathFinding.js</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://trollscience.com/auth/login">trollscience</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acmclub.cn/home">NEUQ OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.wikiwand.com/en/List_of_computer_science_conferences">算法大全</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/strengthen/LeetCode/blob/master/README-CN.md">LeetCode 15 种语言实现</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.brand.site.co.il/riddles/usingyourhead.html">Using your Head is Permitted</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/">洛谷</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_16964363/article/details/79224776">Codeforces科学刷题指南</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/haoel/leetcode">LeetCode C++</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.topcoder.com/">Topcoder</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://poj.org/">P OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.nowcoder.com/contestRoom">牛客网</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/aQuaYi/LeetCode-in-Go">LeetCode Go</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://codeforces.com/">Codeforce</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.acm.fudan.edu.cn/">FDU OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://leetcode-cn.com/">LeetCode</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/Hongbo-Miao/leetcode">LeetCode JavaScript &amp; Python</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://codingcompetitions.withgoogle.com/">Google’s Coding Competitions</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://acm.tongji.edu.cn/">TJ OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.lintcode.com/">LintCode</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/qiyuangong/leetcode">LeetCode Python &amp; Java</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.kaggle.com/">Kiggle</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.ustc.edu.cn/ustcoj/">USTC OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.hihocoder.com/">Hihocoder</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/soapyigu/LeetCode-Swift">LeetCode Swift</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/home/news">Z OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/LeetCode-OpenSource/vscode-leetcode/blob/master/docs/README_zh-CN.md">LeetCodeVSC</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/MisterBooo/LeetCodeAnimation">LeetCode Java</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.hdu.edu.cn/">HDU OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://leetcode.wang/leetcode100%E6%96%A9%E5%9B%9E%E9%A1%BE.html">LeetCode 400</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.csu.edu.cn/">CSU-ACM</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.hit.edu.cn/">HOJX</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.hrbust.edu.cn/">HRBUST OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.swust.edu.cn/#/">Power OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.scu.edu.cn/soj/">SCU OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://coding.fzu.edu.cn/">FZU CoidngOJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ac.2333.moe/">NBUT OJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://acm.uestc.edu.cn/home">Lutece</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.whu.edu.cn/">武汉大学 ACM协会</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://acm.zjut.edu.cn/">ZJUT OJ</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="33-论文"><a class="markdownIt-Anchor" href="#33-论文"></a> 3.3. 论文</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基础</th>
+<th style="text-align:center">查询</th>
+<th style="text-align:center">Rank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ying-zhang.github.io/misc/2017/ccf-all-in-one/">CFF</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.doi.org/">doi</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.shanghairanking.com/Shanghairanking-Subject-Rankings/computer-science-engineering.html">ARWU(CS)2020</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ying-zhang.github.io/misc/2016/we-love-paper/">如何收集和整理论文</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.image-net.org/">ImgNet</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://csrankings.org/">CSRankings</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zhihu.com/topic/19791061/hot">Zotero</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.asimovinstitute.org/neural-network-zoo/">Neural Networks</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://blog.sciencenet.cn/blog-2724438-1214545.html">ESI 2020</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://linggle.com/#">Linggle</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://jalammar.github.io/feedforward-neural-networks-visual-interactive/">Neural Network Math</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.topuniversities.com/university-rankings/university-subject-rankings/2020/computer-science-information-systems">QS(CS)2020</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dblp.org/search/">dblp</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://support.spatialkey.com/spatialkey-sample-csv-data/">Sample CSV Data</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.timeshighereducation.com/world-university-rankings/2020/subject-ranking/computer-science">THE(CS)2020</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.36lunwen.com/">36文献</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.usnews.com/education/best-global-universities/search?country=china&amp;region=asia&amp;subject=computer-science">USNEWS(CS)2020</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/19825429/answer/112744040">知乎学科 国内2020(总)</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="34-python"><a class="markdownIt-Anchor" href="#34-python"></a> 3.4. Python</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">库</th>
+<th style="text-align:center">资源</th>
+<th style="text-align:center">工具</th>
+<th style="text-align:center">项目</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.python.org/zh-cn/3.7/library/">Python 标准库</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.python88.cn/">Python爬虫人工智能学习教程</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.xicidaili.com/">西刺免费代理IP</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wordart.com/">文字云</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://requests.readthedocs.io/zh_CN/latest/">Python Requests</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.pythondoc.com/">Python中文学习大本营</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/jhao104/proxy_pool">爬虫IP代理池</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://maorx.cn/yxh/">营销号文案生成器</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.python.org/zh-cn/3/library/urllib.html">Python Urllib</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://jobbole.github.io/awesome-python-cn/">Python资源大全中文版</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.bazhuayu.com/">八爪鱼采集器</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://projecteuler.net/">Proiect Euler</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://selenium-python-zh.readthedocs.io/en/latest/">Python Selenium</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.pyzhishiquan.com/">Python知识圈</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/facert/awesome-spider">Python爬虫集合</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/danistefanovic/build-your-own-x">build-your-own-x</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.python.org/zh-cn/3/library/re.html">Python Re</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.xiaozhan95.com/">Python教程网</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.torproject.org/">tor</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/">Python Beautiful Soup</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.python.org/3/">Python 3.8.5</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.scrapy.org/en/latest/">Python Scrapy</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/lateautumn4lin/Review_Reverse">Python逆向</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://docs.pyspider.org/en/latest/">Python PySpider</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/lining0806/PythonSpiderNotes">Python入门J网络爬虫之精华版</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.matplotlib.org.cn/">Python Matplotlib</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/xianyucoder/Crack-JS">爬虫项目进阶实战</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.numpy.org.cn/">Python Numpy</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/Kr1s77/awesome-python-login-model">Python模拟登陆一些大型网站</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.pypandas.cn/">Python Pandas</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/Ehco1996/Python-crawler">系统化学习Python爬虫</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://docs.djangoproject.com/en/3.0/">Python Django</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cloudcrawler.club/">云爬虫技术研究笔记</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://lateautumn4lin.blog.csdn.net/">云爬虫技术研究笔记(CSDN)</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/Jack-Cherish/python-spider">Python3网络爬虫实战</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="35-站点"><a class="markdownIt-Anchor" href="#35-站点"></a> 3.5. 站点</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">云服务商</th>
+<th style="text-align:center">平台</th>
+<th style="text-align:center">数学</th>
+<th style="text-align:center">英语</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.aliyun.com/">阿里云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dueros.baidu.com/">dueros(百度)</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/137186727">符号大全</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.thesaurus.com/">Thesaurus</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cloud.tencent.com/">腾讯云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://ai.baidu.com/">百度AI开放平台</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/137153016">符号大全</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.vocabulary.com/">Vocabular</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cloud.baidu.com/">百度云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.xfyun.cn/">讯飞开放平台</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/IowaBattleship/latex-gong-shi-tai-quan">LaTeX数学公式大全</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.urbandictionary.com/">Urban</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.huaweicloud.com/">华为云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dialogflow.com/">Dialogflow(Google语义开发)</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.dstang.com/books_dstang/geogebra_commands.html">geogebra指令</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.bimuyu.com/name-translator/">比目鱼</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jdcloud.com/">京东云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://neuhub.jd.com/">京东人工智能开放平台</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.abbreviationfinder.org/cn/">英文缩略词查询</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.west.cn/">西部数码</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://open.youtu.qq.com/#/open">腾讯优图AI开放平台</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://abbr.dict.cn/">海词缩略语</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zzidc.com/">景安云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.faceplusplus.com.cn/">旷视 Face++人工智能开放平台</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.qiniu.com/">七牛云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.developer.amazon.com/zh/">amazondeveloper(amazon)</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.upyun.com/">又拍云</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tensorflow.google.cn/">google tensorflow（机器学习）</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.cndns.com/">美橙互联</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://developers.google.cn/assistant/support">Google assistant(语义处理 被屏蔽)</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ucloud.cn/">UCloud</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://aws.amazon.com/">AWS</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://azure.microsoft.com/en-us/">Microsoft Azure</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://hk.godaddy.com/en">GoDaddy</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.cloudflare.com/">Cloudflare</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jsdelivr.com/">jsDelivr</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="36-学习"><a class="markdownIt-Anchor" href="#36-学习"></a> 3.6. 学习</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">网课</th>
+<th style="text-align:center">培训班</th>
+<th style="text-align:center">众包</th>
+<th style="text-align:center">工具</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://matlabacademy.mathworks.com/cn">MATLAB 和 Simulink 培训</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ke.qq.com/">腾讯课堂</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.yuanjisong.com/">猿急送</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://linuxcommand.org/">linux指令</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://next.xuetangx.com/">学堂在线</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.itheima.com/">黑马程序员</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zb.oschina.net/">开源众包</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ihateregex.io/">iHateRegex</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://study.163.com/">网易云课堂</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jikexueyuan.com/">极客学院</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.waibaodashi.com/">外包大师</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://regex101.com/">Online regex tester and debug</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.icourse163.org/">中国大学MOOC</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.imooc.com/">慕课网</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.rrkf.com/">人人开发</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://carbon.now.sh/">carbon</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.wanmen.org/">万门大学</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.atguigu.com/">尚硅谷</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://kuaimacode.com/">快码</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://explainshell.com/">shell查询</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.mooc.cn/">慕课中国</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cn.udacity.com/">优达学城</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.52solution.com/">我爱方案网</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://oeasy.org/">oeasy</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://open.163.com/">网易公开课</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://edu.51cto.com/">51CTO学院</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.yingxuan.io/">英选</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ted.com/">ted</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://edu.csdn.net/">CSDN学院</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://zhichou.com/">智筹</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.edx.org/">edx</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.kgc.cn/">课工场</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.kaifabang.com/">开发邦</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.coursera.org/">coursera</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.oldboyedu.com/">老男孩IT教育</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://codemart.com/">码市</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://contribute.freecodecamp.org/#/">FreeCodecamp</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.mobiletrain.org/">干锋教育</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.freekeer.com/">自由职客</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://learn.freecodecamp.one/">FreeCodecamp中国</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jikexueyuan.com/">极客学院</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jfh.com/">解放号</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/jwasham/coding-interview-university">Coding Interview University</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.proginn.com/">程序员客栈</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.jhipster.tech/cn/">JHipster</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.mayigeek.com/">码易</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.yuque.com/guigumentor/guigu">CS</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://eleduck.com/">电鸭社区</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV187411y7hF?p=1">Linux</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.sxsoft.com/">Sxsoft</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://shixian.com/">实现网</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.taskcity.com/">智城外包网</a></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="37-程序"><a class="markdownIt-Anchor" href="#37-程序"></a> 3.7. 程序</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">脚本</th>
+<th style="text-align:center">开源</th>
+<th style="text-align:center">插件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/hardikvasa/google-images-download">Google Images Download</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://gnuwin32.sourceforge.net/packages/tree.htm">tree</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zhaoolee.com/">谷粒插件</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://greasyfork.org/en/users/24847-mottie">Mottie</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.gnome.org/">GNOME</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/Yogayu/awesome-jupyterlab-extension">awesome-jupyterlab-extension</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="38-站点"><a class="markdownIt-Anchor" href="#38-站点"></a> 3.8. 站点</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">查询</th>
+<th style="text-align:center">工具</th>
+<th style="text-align:center">统计</th>
+<th style="text-align:center">图片</th>
+<th style="text-align:center">分析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://web.archive.org/">Wayback Machine</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tools.miku.ac/">MikuTools</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ziyuan.baidu.com/?castk=LTE%3D">百度站长平台</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://imgchr.com/">路过图床</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tongji.baidu.com/web/welcome/login">百度统计</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://archive.org/">Internet Archive</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://sina.lt/">新浪短网址</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://zhanzhang.sogou.com/">搜狗站长平台</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://sm.ms/">SM.MS</a></td>
+<td style="text-align:center">谷歌分析</td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.similarsitesearch.com/cn/">Similar Site Search</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dwz.cn/">百度短网址</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://zhanzhang.so.com/">360站长平台</a></td>
+<td style="text-align:center">新浪图床</td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.umeng.com/">友盟+</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://html5up.net/">HTML5UP</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cli.im/">草料二维码</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.google.cn/webmasters/">Google站长平台</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cn.bing.com/?mkt=zh-CN">Bing</a></td>
+<td style="text-align:center">腾讯分析</td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://public-apis.xyz/">Public Api</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://greasyfork.org/en">Greasy Fork</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.bing.com/toolbox/webmaster/">Bing网站管理员工具</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://undraw.co/">Undraw</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.google.com/adsense/start/">Google AdSense</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://nocodeapi.com/">Nocodeapi</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://fztool.ptcms.com/">仿站工具箱</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.patrick-wied.at/projects/heatmap-keyboard/">Visualizing keyboard</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://saucenao.com/">用图搜原图</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://union.baidu.com/bqt#/">百度广告联盟</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://apicoding.io/public-apis">Api Coding</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.loom.com/">loom</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.passmark.com/">passmark</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://waifu2x.udp.jp/">图片降噪与放大</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tool.lusongsong.com/seo/">超级SEO外链工具</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wanneng.run/cn/">万能命令</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tool.lu/">程序员的工具箱</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.tiobe.com/tiobe-index/">tiobe</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.tineye.com/">Tineye</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.planetb.ca/syntax-highlight-word">Syntax Highlight</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tool.oschina.net/">OSCHINA.NET社区</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://socialblade.com/">油管统计</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zhitu.isux.us/">智图</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tophub.today/">今日热榜</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://nav.web-hub.cn/">FrontEndNav</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.biliob.com/">B站统计</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tinyjpg.com/">图片压缩</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.speedtest.net/#">SPEEDTEST</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tools.ly522.com/">记磊工具箱</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://search.google.com/search-console">Google SearchConsole</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://yj.duduxuexi.com/">图片透明圆角</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.beian.miit.gov.cn/">ICPIP地址成名信息备案管理系统</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://tool.mkblog.cn/">孟坤工具箱</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.remove.bg/">在线抠图</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://beian.gov.cn/">全国互联网安全管理服务平台</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.rdonly.com/">寻</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://tinypng.com/">TinyPNG</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://namebeta.com/">NnameBeta</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://uzer.me/">Uzer Me</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://waifu2x.udp.jp/">waifu2x</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.domcomp.com/">Domcomp</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo">PicGo</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://squoosh.app/">Squoosh</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://whois.aliyun.com/">阿里云whois查询</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://tool.chinaz.com/">站长工具-站长之家</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.iloveimg.com/">ILovelMG </a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ipaddress.com/">IPAddress</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://photomosh.com/">PHOTOMOSH</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://site.ip138.com/">查询网</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://jakearchibald.github.io/svgomg/">SVGOMG</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ipip.net/ip.html">IPIP</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://icons8.com/preloaders/">Preloaders</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://loading.io/">Loading</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.uupoop.com/">稿定设计</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://zhangwenli.com/blog/2015/06/25/polyvia/">Low-Poly图像 视频</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.xnview.com/en/">XnView</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bigjpg.com/">bigjpg</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.remove.bg/">removebg</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://exif.tuchong.com/">图虫</a></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="39-检索"><a class="markdownIt-Anchor" href="#39-检索"></a> 3.9. 检索</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">百科</th>
+<th style="text-align:center">引擎</th>
+<th style="text-align:center">游戏编程</th>
+<th style="text-align:center">趣味</th>
+<th style="text-align:center">代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.zhihu.com/">知乎</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://duckduckgo.com/">DuckDuckGo</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://checkio.org/">CheckiO</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.25os.com/">PC模拟</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://about.gitlab.com/">Gitlab</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.quora.com/">Quora</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.dogedoge.com/">DogeDoge</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.codingame.com/start">Coding Games</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://weavesilk.com/">Silk</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bitbucket.org/">Bitibucket</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-cn/">维基百科</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://mijisou.com/">秘迹搜索</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.codewars.com/">Codewars</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://websiteasteroids.com/">小飞机</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://sourceforge.net/">SourceForge</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://encyclopedia.thefreedictionary.com">维基镜像</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://magi.com/">Magi</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://codecombat.163.com/#/">CodeCombat</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.mapstd.com/">塔防</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://coding.net/">Coding</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://w.upupming.site/wiki/Wikipedia:%E9%A6%96%E9%A1%B5">维基镜像</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.wolframalpha.com/">WolframAlpha</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://screeps.com/">Screeps</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://findingho.me/">飞行体验</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://gitee.com/">Gitee</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://kfd.me/">维基镜像</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.ibm.com/watson">IBM Watson</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://vim-adventures.com/">VIM Adventures</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.staggeringbeauty.com/">魔性小人</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://code.aliyun.com">阿里云代码托管</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.yuque.com/">语雀</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://megasearch.co/">文件查询</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.cyber-dojo.org/">Cyber-Dojo</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://geektyper.com/">GEEKTyper</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://xiaolvyun.baidu.com/">百度效率云</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://sspai.com/">少数派</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://apkpure.com/">apk下载</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://play.elevatorsaga.com/">Elevator Sagaa</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://bear71vr.nfb.ca/">Bear 71 VR</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://topbook.cc/overview">Topbook</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://alternativeto.net/">AlternativeTol</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://rubyquiz.com/">Ruby Quiz</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.espn.com/espn/feature/story/_/id/19045647/we-fans-documentary-official-site-espn">We the Fans</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ipaperclip.net/">回形针手册</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.hacker.org/">hacker.org</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://pos.biborg.com/fr/">Poursuit of sound</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wx.zsxq.com/dweb2/login">知识星球</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.bloc.io/ruby-warrior/#/">Ruby Warrior</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.mausoleodiaugusto.it/en/">Mausoleum of Augustus</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://ac.scmor.com/">思谋学术</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://doyouspeakhuman.com/">Do You Speak Human?</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://minutelabs.io/">MinuteLabs</a></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="310-其他"><a class="markdownIt-Anchor" href="#310-其他"></a> 3.10. 其他</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">百科</th>
+<th style="text-align:center">设计</th>
+<th style="text-align:center">工具</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.yummly.com/">yummly</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://colorhunt.co/">Color Hunt</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://convertio.co/">Convertio</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://human.biodigital.com/login?returnUrl=/dashboard">BIODIGITAL</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://coolors.co/">coolors</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://cn.office-converter.com/">Office-Converter</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://musclewiki.com/">MUSCLEWIKI</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://www.uugai.com/">U钙网</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://smallpdf.com/">Smallpdf</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.flightradar24.com/">航班查询</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.logaster.cn/">Logaster</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.hipdf.com/">HiPDF</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.haodf.com/">好大夫在线</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://patorjk.com/software/taag/#p=display&amp;f=Graffiti&amp;t=Type%20Something%20">Text to ASCII Art Generator</a></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.easeus.com/">EaseUS Partition Master</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://dxy.com/">丁香医生</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.diskgenius.cn/">DiskGenius</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://openlaw.cn/">OpenLaw 裁判文书检索</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://jianwai.youdao.com/">网易见外工作台</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="http://wenshu.court.gov.cn/">中国裁判文书网</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://wikileaks.org/">wikileaks</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.who.int/medicines/publications/essentialmedicines/zh/">世卫组织基本药物标准清单</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a target="_blank" rel="noopener" href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">COVID-19</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="311-官网"><a class="markdownIt-Anchor" href="#311-官网"></a> 3.11. 官网</h2>
+<ul>
+<li>Autohotkey: <a target="_blank" rel="noopener" href="https://www.autoahk.com/">https://www.autoahk.com/</a></li>
+<li>Blender中国社区: <a target="_blank" rel="noopener" href="https://www.blendercn.org/">https://www.blendercn.org/</a></li>
+<li>Google Earth: <a target="_blank" rel="noopener" href="https://www.google.com/earth/">https://www.google.com/earth/</a></li>
+<li>IT技术网站: <a target="_blank" rel="noopener" href="https://www.cnblogs.com/linguoguo/p/4959881.html">https://www.cnblogs.com/linguoguo/p/4959881.html</a></li>
+<li>OpenAI: <a target="_blank" rel="noopener" href="https://openai.com/">https://openai.com/</a></li>
+<li>OSC官网: <a target="_blank" rel="noopener" href="http://opensoundcontrol.org/">http://opensoundcontrol.org/</a></li>
+<li>p5中国: <a target="_blank" rel="noopener" href="https://p5.xn--fiqs8s/">https://p5.中国/</a></li>
+<li>OEIS: <a target="_blank" rel="noopener" href="https://oeis.org/">https://oeis.org/</a></li>
+<li>typingclub: <a target="_blank" rel="noopener" href="https://www.typingclub.com/">https://www.typingclub.com/</a></li>
+<li>物联网导航: <a target="_blank" rel="noopener" href="https://www.iotstu.com/">https://www.iotstu.com/</a></li>
+<li>全历史: <a target="_blank" rel="noopener" href="https://www.allhistory.com/">https://www.allhistory.com/</a></li>
+<li>Medium: <a target="_blank" rel="noopener" href="https://medium.com/">https://medium.com/</a></li>
+<li>中国研究生招生信息网: <a target="_blank" rel="noopener" href="https://yz.chsi.com.cn/">https://yz.chsi.com.cn/</a></li>
+<li>KATEX: <a target="_blank" rel="noopener" href="https://katex.org/docs/options.html">https://katex.org/docs/options.html</a></li>
+<li>mathefragen: <a target="_blank" rel="noopener" href="https://www.mathefragen.de/">https://www.mathefragen.de/</a></li>
+</ul>
+<h2 id="312-导航"><a class="markdownIt-Anchor" href="#312-导航"></a> 3.12. 导航</h2>
+<ul>
+<li>世界各国网址大全: <a target="_blank" rel="noopener" href="http://www.world68.com/">http://www.world68.com/</a></li>
+<li>创造狮导航: <a target="_blank" rel="noopener" href="http://chuangzaoshi.com/">http://chuangzaoshi.com/</a></li>
+<li>大数据导航: <a target="_blank" rel="noopener" href="http://hao.199it.com/">http://hao.199it.com/</a></li>
+<li>优设导航: <a target="_blank" rel="noopener" href="https://hao.uisdc.com/">https://hao.uisdc.com/</a></li>
+<li>牛导航: <a target="_blank" rel="noopener" href="http://nav.6soluo.com/">http://nav.6soluo.com/</a></li>
+<li>饮食男女: <a target="_blank" rel="noopener" href="http://www.ziliao6.com/">http://www.ziliao6.com/</a></li>
+<li>ShareHub: <a target="_blank" rel="noopener" href="https://www.gezhipu.com/cn/index.html">https://www.gezhipu.com/cn/index.html</a></li>
+<li>狼牌工作网址导航: <a target="_blank" rel="noopener" href="https://www.volf.club/">https://www.volf.club/</a></li>
+<li>大数据导航: <a target="_blank" rel="noopener" href="http://hao.199it.com/">http://hao.199it.com/</a></li>
+<li>大木虫学术导航: <a target="_blank" rel="noopener" href="http://www.4243.net/">http://www.4243.net/</a></li>
+<li>虫部落: <a target="_blank" rel="noopener" href="https://www.chongbuluo.com/">https://www.chongbuluo.com/</a></li>
+<li>导航网站: <a target="_blank" rel="noopener" href="https://www.addog.vip/">https://www.addog.vip/</a></li>
+<li>科塔学术导航: <a target="_blank" rel="noopener" href="https://site.sciping.com/">https://site.sciping.com/</a></li>
+<li>AnywhereAnything: <a target="_blank" rel="noopener" href="http://lackar.com/aa/">http://lackar.com/aa/</a></li>
+<li>猎手导航: <a target="_blank" rel="noopener" href="http://www.lsdhss.com/">http://www.lsdhss.com/</a></li>
+<li>龙轩导航: <a target="_blank" rel="noopener" href="http://ilxdh.com/">http://ilxdh.com/</a></li>
+<li>大傻子的网址收藏: <a target="_blank" rel="noopener" href="http://share.rubaoo.com/TimeDiaryV2/s/Zzg">http://share.rubaoo.com/TimeDiaryV2/s/Zzg</a>=</li>
+<li>医学导航: <a target="_blank" rel="noopener" href="http://meddir.cn/">http://meddir.cn/</a></li>
+</ul>
+<h2 id="313-hexo"><a class="markdownIt-Anchor" href="#313-hexo"></a> 3.13. hexo</h2>
+<ul>
+<li>OpenWrite: <a target="_blank" rel="noopener" href="https://openwrite.cn/">https://openwrite.cn/</a></li>
+<li>Easy Hexo: <a target="_blank" rel="noopener" href="https://easyhexo.com/">https://easyhexo.com/</a></li>
+<li>butterfly: <a target="_blank" rel="noopener" href="https://butterfly.js.org/">https://butterfly.js.org/</a></li>
+<li>WebStack: <a target="_blank" rel="noopener" href="https://github.com/WebStackPage/WebStackPage.github.io">https://github.com/WebStackPage/WebStackPage.github.io</a></li>
+<li>webpushr: <a target="_blank" rel="noopener" href="https://app.webpushr.com/">https://app.webpushr.com/</a></li>
+<li>manifest: <a target="_blank" rel="noopener" href="https://app-manifest.firebaseapp.com/">https://app-manifest.firebaseapp.com/</a></li>
+<li>Server酱: <a target="_blank" rel="noopener" href="http://sc.ftqq.com/3.version">http://sc.ftqq.com/3.version</a></li>
+<li>Qmsg酱: <a target="_blank" rel="noopener" href="https://qmsg.zendee.cn/">https://qmsg.zendee.cn/</a></li>
+<li>Akismet: <a target="_blank" rel="noopener" href="https://akismet.com/development/">https://akismet.com/development/</a></li>
+<li>DPlayer: <a target="_blank" rel="noopener" href="http://dplayer.js.org/zh/guide.html">http://dplayer.js.org/zh/guide.html</a></li>
+<li>algolia: <a target="_blank" rel="noopener" href="https://www.algolia.com/">https://www.algolia.com/</a></li>
+</ul>
+<h2 id="预备知识-preliminaries"><a class="markdownIt-Anchor" href="#预备知识-preliminaries"></a> 预备知识 Preliminaries</h2>
+<blockquote></blockquote>
+<h2 id="研究方法"><a class="markdownIt-Anchor" href="#研究方法"></a> 研究方法</h2>
+<blockquote></blockquote>
+<h2 id="实验设计"><a class="markdownIt-Anchor" href="#实验设计"></a> 实验设计</h2>
+<blockquote></blockquote>
+<h2 id="主要结果"><a class="markdownIt-Anchor" href="#主要结果"></a> 主要结果</h2>
+<blockquote></blockquote>
+<h2 id="证明方法"><a class="markdownIt-Anchor" href="#证明方法"></a> 证明方法</h2>
+<blockquote></blockquote>
+<h2 id="延申-extensions"><a class="markdownIt-Anchor" href="#延申-extensions"></a> 延申 Extensions</h2>
+<blockquote></blockquote>
+<h1 id="结论-conclusion"><a class="markdownIt-Anchor" href="#结论-conclusion"></a> 结论 Conclusion</h1>
+<h2 id="定性"><a class="markdownIt-Anchor" href="#定性"></a> 定性</h2>
+<blockquote></blockquote>
+<h2 id="定量"><a class="markdownIt-Anchor" href="#定量"></a> 定量</h2>
+<blockquote></blockquote>
+<h1 id="感谢-acknowledgments"><a class="markdownIt-Anchor" href="#感谢-acknowledgments"></a> 感谢 Acknowledgments</h1>
+<blockquote></blockquote>
+<h1 id="参考-reference"><a class="markdownIt-Anchor" href="#参考-reference"></a> 参考 Reference</h1>
+<h2 id="website"><a class="markdownIt-Anchor" href="#website"></a> WebSite</h2>
+<blockquote></blockquote>
+<h2 id="blog"><a class="markdownIt-Anchor" href="#blog"></a> Blog</h2>
+<blockquote></blockquote>
+<h2 id="paper"><a class="markdownIt-Anchor" href="#paper"></a> Paper</h2>
+<blockquote></blockquote>
+<h2 id="book"><a class="markdownIt-Anchor" href="#book"></a> Book</h2>
+<blockquote></blockquote>
+<h2 id="video"><a class="markdownIt-Anchor" href="#video"></a> Video</h2>
+<blockquote></blockquote>
+<h2 id="audio"><a class="markdownIt-Anchor" href="#audio"></a> Audio</h2>
+<blockquote></blockquote>
+<h2 id="other"><a class="markdownIt-Anchor" href="#other"></a> Other</h2>
+<blockquote></blockquote>
+<h1 id="附录-appendix"><a class="markdownIt-Anchor" href="#附录-appendix"></a> 附录 Appendix</h1>
+<h2 id="qa"><a class="markdownIt-Anchor" href="#qa"></a> Q&amp;A</h2>
+<blockquote></blockquote>
+<h2 id="website-2"><a class="markdownIt-Anchor" href="#website-2"></a> WebSite</h2>
+<ul>
+<li>本人: <a href="https://leochen12138-a.github.io">https://leochen12138-a.github.io</a></li>
+</ul>
+<h2 id="download"><a class="markdownIt-Anchor" href="#download"></a> Download</h2>
+<blockquote></blockquote>
+<h2 id="markdown"><a class="markdownIt-Anchor" href="#markdown"></a> Markdown</h2>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/56699805">Aya Magician</a></li>
+</ul>
+<p>[toc]</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Leo Chen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://leochen12138-a.github.io/p/28e0cb45/index.html">https://leochen12138-a.github.io/p/28e0cb45/index.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客著作权归作者所有。除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。未经允许，严禁转载。版权所有，侵权必究。转载请注明来源 <a href="https://leochen12138-a.github.io" target="_blank">Leochen的博客</a>！。</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Search/">Search</a><a class="post-meta__tags" href="/tags/Website/">Website</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="google,facebook,twitter,linkedin,douban,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><button class="reward-button" type="button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="./img/loading.gif" data-original="/img/wechat.jpg" alt="wechat" onclick="window.open('/img/wechat.jpg')"/><div class="post-qr-code__desc">wechat</div></li><li class="reward-item"><img class="post-qr-code__img" src="./img/loading.gif" data-original="/img/alipay.jpg" alt="alipay" onclick="window.open('/img/alipay.jpg')"/><div class="post-qr-code__desc">alipay</div></li></ul></div></button></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/p/a3b42f00/index.html"><img class="prev-cover" data-src="./img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">RSS_Install</div></div></a></div><div class="next-post pull-right"><a href="/p/b8b8e0fa/index.html"><img class="next-cover" data-src="./img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">GoogleSearch</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/p/b8b8e0fa/index.html" title="GoogleSearch"><img class="relatedPosts_cover" data-src="./img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fas fa-history fa-fw"></i> 2021-03-30</div><div class="relatedPosts_title">GoogleSearch</div></div></a></div><div class="relatedPosts_item"><a href="/p/a3b42f00/index.html" title="RSS_Install"><img class="relatedPosts_cover" data-src="./img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fas fa-history fa-fw"></i> 2021-03-30</div><div class="relatedPosts_title">RSS_Install</div></div></a></div></div></div><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Valine</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">Disqusjs</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="Valine"><div class="vcomment" id="vcomment"></div><script>function loadvaline () {  
+  var requestSetting = function (from,set) {
+    var from = from
+    var setting = set.split(',').filter(function(item){
+    return from.indexOf(item) > -1
+    });
+    setting = setting.length == 0 ? from :setting;
+    return setting
+  }
+
+  var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+  var requiredFields = requestSetting(['nick','mail'],'nick,mail')
+
+  function initValine () {
+    window.valine = new Valine({
+      el:'#vcomment',
+      appId: '3m7yJsw2QPlNnB9ve3shBVvV-gzGzoHsz',
+      appKey: 'c8UJOIYc6DCOlB2PK5XWVwBz',
+      placeholder: '欢迎 issue, 留言区勘误',
+      avatar: 'monsterid',
+      meta: guestInfo,
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      requiredFields: requiredFields
+    });
+  }
+  loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || false) {
+  window.addEventListener('load', loadvaline)
+}
+else {
+  function loadOtherComment () {
+    loadvaline()
+  }
+}</script></div><div class="comments-items-2" data-name="Disqusjs"><div id="disqus_thread"></div><script>function loadDisqusjs () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+
+  loadScript('https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js', function() {
+    var dsqjs = new DisqusJS({
+      shortname: '板仔的编程生活',
+      siteName: 'leochen12138.top',
+      identifier: 'p/28e0cb45/index.html',
+      url: 'https://leochen12138-a.github.io/p/28e0cb45/index.html',
+      title: 'WebSite',
+      api: 'rmYR0LW7he8PHZMYEEySsVcjQPUrPYbmY1Huqos7xmI8JTfZASaCaKsVwusWk1OC',
+      apikey: 'MyW9ssgu5di8PmzjLdXLJv6zyX424bQp2I7ylPYrlBkl2AoVQXSpGHyzDRabynXQ',
+      nocomment: '',
+      admin: '',
+      adminLabel: ''
+    });
+  })
+}
+
+if ('Valine' === 'Disqusjs' || false) {
+  window.addEventListener('load', loadDisqusjs)
+}
+else {
+  function loadOtherComment () {
+    loadDisqusjs()
+  }
+}
+
+</script></div></div></div></article></main><footer id="footer" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Leo Chen</div><div class="framework-info"><span>驱动 </span><a target="_blank" rel="noopener" href="https://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://leochen12138-a.github.io">blog</a>!</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css"><script>$(function () {
+  $('span.katex-display').wrap('<div class="katex-wrap"></div>')
+})</script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="true" src="/js/third-party/piao.js"></script><script id="canvas_nest" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="true" src="/js/third-party/canvas-nest.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/third-party/click_heart.js"></script><script src="/js/search/local-search.js"></script><script>if (document.getElementsByClassName('mermaid').length) {
+  loadScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js',function () {
+    mermaid.initialize({
+      theme: 'dark',
+  })
+})
+}</script><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/5f1e51ac.js","daovoice")
+</script><script>var isChatBtn = true
+daovoice('init', {
+  app_id: '5f1e51ac',},{
+  launcher: { 
+     disableLauncherIcon: isChatBtn // 悬浮 ICON 是否显示
+  },
+});
+daovoice('update');
+
+if (isChatBtn) {
+  var chatBtn = document.getElementById("chat_btn")
+  chatBtn.addEventListener("click", function(){
+    daovoice('show')
+  });
+} else {
+  if (true) {
+    function chatBtnHide () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: true // 悬浮 ICON 是否显示
+        },
+      });
+    }
+    function chatBtnShow () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: false // 悬浮 ICON 是否显示
+        },
+      });
+    }
+  }
+}</script>
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        const hasAttr = (e,a) => a.some(_=> e.attr(_)!==undefined);
+        $('a').each(function() {
+          const $this = $(this);
+          if(hasAttr($this,["data-fancybox","ignore-external-link"])) return;
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'leochen1213-a.github.io' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+href+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body></html>
