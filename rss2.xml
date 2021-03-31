@@ -15,8 +15,31 @@
     <atom:link href="https://leochen12138-a.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习,记录,测试</description>
-    <pubDate>Tue, 30 Mar 2021 14:21:37 GMT</pubDate>
+    <pubDate>Tue, 30 Mar 2021 23:54:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Algorithm_Type List</title>
+      <link>https://leochen12138-a.github.io/p/789eb7ca/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/789eb7ca/index.html</guid>
+      <pubDate>Tue, 30 Mar 2021 23:53:38 GMT</pubDate>
+      
+      <description>这是一篇 Algorithm_Type List 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/List/">List</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/789eb7ca/index.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>符号学</title>
@@ -160,8 +183,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Search/">Search</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Search/RSS/">RSS</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Search/">Search</category>
       
@@ -208,8 +229,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Search/">Search</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Search/Google/">Google</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Search/">Search</category>
       
@@ -231,12 +250,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Language/TypeScript/">TypeScript</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/TypeScript/">TypeScript</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/TypeScript/">TypeScript</category>
       
@@ -256,12 +275,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Language/Shell/">Shell</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/Shell/">Shell</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Shell/">Shell</category>
       
@@ -281,12 +300,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Languages/">Programming Languages</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Languages/C-11/">C++11</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/C-11/">C++11</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/C-11/">C++11</category>
       
@@ -306,12 +325,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Programming-Language/C/">C</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/C/">C</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Programming-Language/">Programming Language</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/C/">C</category>
       
@@ -352,12 +371,14 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Rank/">Rank</category>
+      <category domain="https://leochen12138-a.github.io/categories/Paper/">Paper</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Rank/CS/">CS</category>
+      <category domain="https://leochen12138-a.github.io/categories/Paper/Rank/">Rank</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/CS/">CS</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Paper/">Paper</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Rank/">Rank</category>
       
@@ -377,8 +398,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Org/">Org</category>
+      <category domain="https://leochen12138-a.github.io/categories/Paper/">Paper</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Paper/Org/">Org</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Paper/">Paper</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Org/">Org</category>
       
@@ -398,8 +423,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Meeting/">Meeting</category>
+      <category domain="https://leochen12138-a.github.io/categories/Paper/">Paper</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Paper/Meeting/">Meeting</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Paper/">Paper</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Meeting/">Meeting</category>
       
@@ -521,7 +550,7 @@
       
       <category domain="https://leochen12138-a.github.io/categories/OS/">OS</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/OS/Command/">Command</category>
+      <category domain="https://leochen12138-a.github.io/categories/OS/Windows/">Windows</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/OS/">OS</category>
@@ -551,6 +580,8 @@
       
       <category domain="https://leochen12138-a.github.io/tags/Mathematics/">Mathematics</category>
       
+      <category domain="https://leochen12138-a.github.io/tags/Compete/">Compete</category>
+      
       
       <comments>https://leochen12138-a.github.io/p/97eee4e6/index.html#disqus_thread</comments>
       
@@ -571,6 +602,8 @@
       
       
       <category domain="https://leochen12138-a.github.io/tags/Mathematics/">Mathematics</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Paper/">Paper</category>
       
       
       <comments>https://leochen12138-a.github.io/p/7b795dc5/index.html#disqus_thread</comments>
@@ -1460,8 +1493,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
@@ -1487,8 +1518,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
@@ -1513,8 +1542,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -1560,7 +1587,7 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/AI-ML/">AI - ML</category>
+      <category domain="https://leochen12138-a.github.io/categories/AI/">AI</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/AI/">AI</category>
@@ -1608,8 +1635,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Life/">Life</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Life/Music/">Music</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Life/">Life</category>
       
@@ -1632,8 +1657,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/Life/">Life</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/Life/Story/">Story</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Life/">Life</category>
@@ -1679,8 +1702,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Web/">Web</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Web/HTML/">HTML</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
       
@@ -1702,7 +1723,7 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Web-CSS/">Web - CSS</category>
+      <category domain="https://leochen12138-a.github.io/categories/Web/">Web</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
@@ -1725,12 +1746,8 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Web/">Web</category>
+      <category domain="https://leochen12138-a.github.io/categories/Javascript/">Javascript</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Web/Javascript/">Javascript</category>
-      
-      
-      <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Javascript/">Javascript</category>
       
@@ -1751,8 +1768,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/Hardware/Physics/">Physics</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
@@ -1779,8 +1794,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Hardware/Physics/">Physics</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
       
@@ -1804,12 +1817,10 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Hardware/Raspberry/">Raspberry</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Raspberry/">Raspberry</category>
+      <category domain="https://leochen12138-a.github.io/tags/Raspberry-Pi/">Raspberry Pi</category>
       
       
       <comments>https://leochen12138-a.github.io/p/f90540f5/index.html#disqus_thread</comments>
@@ -1828,8 +1839,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/Hardware/IoT/">IoT</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
@@ -1853,8 +1862,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Git/">Git</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -1967,6 +1974,8 @@
       
       <category domain="https://leochen12138-a.github.io/tags/Game/">Game</category>
       
+      <category domain="https://leochen12138-a.github.io/tags/Godot/">Godot</category>
+      
       
       <comments>https://leochen12138-a.github.io/p/b56735a0/index.html#disqus_thread</comments>
       
@@ -2008,12 +2017,10 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Security/">Computer Security</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Security/Cracker/">Cracker</category>
+      <category domain="https://leochen12138-a.github.io/categories/Security/">Security</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Computer-Security/">Computer Security</category>
+      <category domain="https://leochen12138-a.github.io/tags/Security/">Security</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Cracker/">Cracker</category>
       
@@ -2102,8 +2109,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Graphics/">Graphics</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Graphics/Visualization/">Visualization</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Graphics/">Graphics</category>
       
@@ -2150,7 +2155,7 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/AI-Data-Clean/">AI - Data Clean</category>
+      <category domain="https://leochen12138-a.github.io/categories/AI/">AI</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/AI/">AI</category>
@@ -2173,7 +2178,7 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/AI-DL/">AI - DL</category>
+      <category domain="https://leochen12138-a.github.io/categories/AI/">AI</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/AI/">AI</category>
@@ -2198,8 +2203,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/OpenStack/">OpenStack</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
@@ -2222,8 +2225,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Docker/">Docker</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -2248,8 +2249,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Hardware/Control-Theory/">Control Theory</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
       
@@ -2271,12 +2270,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Graphics/">Computer Graphics</category>
+      <category domain="https://leochen12138-a.github.io/categories/Graphics/">Graphics</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Graphics/Map/">Map</category>
+      <category domain="https://leochen12138-a.github.io/categories/Graphics/Map/">Map</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Computer-Graphics/">Computer Graphics</category>
+      <category domain="https://leochen12138-a.github.io/tags/Graphics/">Graphics</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Map/">Map</category>
       
@@ -2296,10 +2295,10 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Graphics/">Computer Graphics</category>
+      <category domain="https://leochen12138-a.github.io/categories/Graphics/">Graphics</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Computer-Graphics/">Computer Graphics</category>
+      <category domain="https://leochen12138-a.github.io/tags/Graphics/">Graphics</category>
       
       
       <comments>https://leochen12138-a.github.io/p/56810d78/index.html#disqus_thread</comments>
@@ -2317,10 +2316,10 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Security/">Computer Security</category>
+      <category domain="https://leochen12138-a.github.io/categories/Security/">Security</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Computer-Security/">Computer Security</category>
+      <category domain="https://leochen12138-a.github.io/tags/Security/">Security</category>
       
       
       <comments>https://leochen12138-a.github.io/p/7e85a985/index.html#disqus_thread</comments>
@@ -2338,12 +2337,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Security/">Computer Security</category>
+      <category domain="https://leochen12138-a.github.io/categories/Security/">Security</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Security/Cryptology/">Cryptology</category>
+      <category domain="https://leochen12138-a.github.io/categories/Security/Cryptology/">Cryptology</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Computer-Security/">Computer Security</category>
+      <category domain="https://leochen12138-a.github.io/tags/Security/">Security</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Cryptology/">Cryptology</category>
       
@@ -2411,14 +2410,12 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Github/">Github</category>
-      
       <category domain="https://leochen12138-a.github.io/tags/Git/">Git</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Github/">Github</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Cheat-Sheet/">Cheat Sheet</category>
       
@@ -2459,10 +2456,10 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Computer-Network/">Computer Network</category>
+      <category domain="https://leochen12138-a.github.io/categories/Network/">Network</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Computer-Network/">Computer Network</category>
+      <category domain="https://leochen12138-a.github.io/tags/Network/">Network</category>
       
       
       <comments>https://leochen12138-a.github.io/p/5c4efa45/index.html#disqus_thread</comments>
@@ -2480,12 +2477,8 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Language/">Language</category>
+      <category domain="https://leochen12138-a.github.io/categories/Markdown/">Markdown</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Language/Markdown/">Markdown</category>
-      
-      
-      <category domain="https://leochen12138-a.github.io/tags/Language/">Language</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Markdown/">Markdown</category>
       
@@ -2551,7 +2544,7 @@
     </item>
     
     <item>
-      <title>考研数学一的思考(一)</title>
+      <title>考研数学一</title>
       <link>https://leochen12138-a.github.io/p/93e4730e/index.html</link>
       <guid>https://leochen12138-a.github.io/p/93e4730e/index.html</guid>
       <pubDate>Sun, 07 Feb 2021 15:07:04 GMT</pubDate>
@@ -2563,14 +2556,12 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Mathematics/">Mathematics</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Mathematics/%E8%80%83%E7%A0%94/">考研</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/Mathematics/%E8%80%83%E7%A0%94/%E6%95%B0%E5%AD%A6%E4%B8%80/">数学一</category>
+      <category domain="https://leochen12138-a.github.io/categories/Mathematics/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/">考研数学</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Mathematics/">Mathematics</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/%E8%80%83%E7%A0%94/">考研</category>
+      <category domain="https://leochen12138-a.github.io/tags/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/">考研数学</category>
       
       <category domain="https://leochen12138-a.github.io/tags/%E6%95%B0%E5%AD%A6%E4%B8%80/">数学一</category>
       
@@ -2591,8 +2582,6 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
-      
-      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -2646,12 +2635,12 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Javascript/">Javascript</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Javascript/Nodejs/">Nodejs</category>
+      <category domain="https://leochen12138-a.github.io/categories/Javascript/Node-js/">Node.js</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Javascript/">Javascript</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Nodejs/">Nodejs</category>
+      <category domain="https://leochen12138-a.github.io/tags/Node-js/">Node.js</category>
       
       <category domain="https://leochen12138-a.github.io/tags/nvm-windows/">nvm-windows</category>
       
@@ -2675,12 +2664,10 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Hexo/">Hexo</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Hexo/Hexo-butterfly/">Hexo_butterfly</category>
-      
-      
-      <category domain="https://leochen12138-a.github.io/tags/Hexo/">Hexo</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Hexo-butterfly/">Hexo_butterfly</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Hexo/">Hexo</category>
       
       
       <comments>https://leochen12138-a.github.io/p/b7b5d508/index.html#disqus_thread</comments>
@@ -2698,12 +2685,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Hexo/">Hexo</category>
+      <category domain="https://leochen12138-a.github.io/categories/ReprintArticle/">ReprintArticle</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Hexo/Hexo-butterfly/">Hexo_butterfly</category>
+      <category domain="https://leochen12138-a.github.io/categories/ReprintArticle/Hexo-butterfly/">Hexo_butterfly</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Hexo/">Hexo</category>
+      <category domain="https://leochen12138-a.github.io/tags/ReprintArticle/">ReprintArticle</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Hexo-butterfly/">Hexo_butterfly</category>
       

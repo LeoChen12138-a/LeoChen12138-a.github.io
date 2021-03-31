@@ -6,7 +6,7 @@
   <link href="https://leochen12138-a.github.io/atom.xml" rel="self"/>
   
   <link href="https://leochen12138-a.github.io/"/>
-  <updated>2021-03-30T14:21:37.261Z</updated>
+  <updated>2021-03-30T23:54:42.832Z</updated>
   <id>https://leochen12138-a.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Algorithm_Type List</title>
+    <link href="https://leochen12138-a.github.io/p/789eb7ca/index.html"/>
+    <id>https://leochen12138-a.github.io/p/789eb7ca/index.html</id>
+    <published>2021-03-30T23:53:38.000Z</published>
+    <updated>2021-03-30T23:54:42.832Z</updated>
+    
+    
+    <summary type="html">这是一篇 Algorithm_Type List 的记录</summary>
+    
+    
+    
+    <category term="Algorithm" scheme="https://leochen12138-a.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="Algorithm" scheme="https://leochen12138-a.github.io/tags/Algorithm/"/>
+    
+    <category term="List" scheme="https://leochen12138-a.github.io/tags/List/"/>
+    
+  </entry>
   
   <entry>
     <title>符号学</title>
@@ -140,7 +161,7 @@
     <link href="https://leochen12138-a.github.io/p/a3b42f00/index.html"/>
     <id>https://leochen12138-a.github.io/p/a3b42f00/index.html</id>
     <published>2021-03-30T14:02:55.000Z</published>
-    <updated>2021-03-30T14:21:37.349Z</updated>
+    <updated>2021-03-31T04:56:08.901Z</updated>
     
     
     <summary type="html">这是一篇 RSS_Install 的记录</summary>
@@ -148,8 +169,6 @@
     
     
     <category term="Search" scheme="https://leochen12138-a.github.io/categories/Search/"/>
-    
-    <category term="RSS" scheme="https://leochen12138-a.github.io/categories/Search/RSS/"/>
     
     
     <category term="Search" scheme="https://leochen12138-a.github.io/tags/Search/"/>
@@ -184,7 +203,7 @@
     <link href="https://leochen12138-a.github.io/p/b8b8e0fa/index.html"/>
     <id>https://leochen12138-a.github.io/p/b8b8e0fa/index.html</id>
     <published>2021-03-30T13:42:27.000Z</published>
-    <updated>2021-03-30T14:21:37.344Z</updated>
+    <updated>2021-03-31T04:56:00.938Z</updated>
     
     
     <summary type="html">这是一篇 GoogleSearch 的记录</summary>
@@ -192,8 +211,6 @@
     
     
     <category term="Search" scheme="https://leochen12138-a.github.io/categories/Search/"/>
-    
-    <category term="Google" scheme="https://leochen12138-a.github.io/categories/Search/Google/"/>
     
     
     <category term="Search" scheme="https://leochen12138-a.github.io/tags/Search/"/>
@@ -207,19 +224,19 @@
     <link href="https://leochen12138-a.github.io/p/d044eab7/index.html"/>
     <id>https://leochen12138-a.github.io/p/d044eab7/index.html</id>
     <published>2021-03-30T13:41:20.000Z</published>
-    <updated>2021-03-30T14:21:37.336Z</updated>
+    <updated>2021-03-31T04:55:36.381Z</updated>
     
     
     <summary type="html">这是一篇 TypeScript 的记录</summary>
     
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/categories/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/categories/PL/"/>
     
-    <category term="TypeScript" scheme="https://leochen12138-a.github.io/categories/Programming-Language/TypeScript/"/>
+    <category term="TypeScript" scheme="https://leochen12138-a.github.io/categories/PL/TypeScript/"/>
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/tags/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/tags/PL/"/>
     
     <category term="TypeScript" scheme="https://leochen12138-a.github.io/tags/TypeScript/"/>
     
@@ -230,19 +247,19 @@
     <link href="https://leochen12138-a.github.io/p/84539df9/index.html"/>
     <id>https://leochen12138-a.github.io/p/84539df9/index.html</id>
     <published>2021-03-30T13:40:14.000Z</published>
-    <updated>2021-03-30T14:21:37.329Z</updated>
+    <updated>2021-03-31T04:55:11.579Z</updated>
     
     
     <summary type="html">这是一篇 Shell 的记录</summary>
     
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/categories/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/categories/PL/"/>
     
-    <category term="Shell" scheme="https://leochen12138-a.github.io/categories/Programming-Language/Shell/"/>
+    <category term="Shell" scheme="https://leochen12138-a.github.io/categories/PL/Shell/"/>
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/tags/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/tags/PL/"/>
     
     <category term="Shell" scheme="https://leochen12138-a.github.io/tags/Shell/"/>
     
@@ -253,19 +270,19 @@
     <link href="https://leochen12138-a.github.io/p/5751eea2/index.html"/>
     <id>https://leochen12138-a.github.io/p/5751eea2/index.html</id>
     <published>2021-03-30T13:31:09.000Z</published>
-    <updated>2021-03-30T14:21:37.324Z</updated>
+    <updated>2021-03-31T04:54:44.726Z</updated>
     
     
     <summary type="html">这是一篇 C++ 的记录</summary>
     
     
     
-    <category term="Programming Languages" scheme="https://leochen12138-a.github.io/categories/Programming-Languages/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/categories/PL/"/>
     
-    <category term="C++11" scheme="https://leochen12138-a.github.io/categories/Programming-Languages/C-11/"/>
+    <category term="C++11" scheme="https://leochen12138-a.github.io/categories/PL/C-11/"/>
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/tags/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/tags/PL/"/>
     
     <category term="C++11" scheme="https://leochen12138-a.github.io/tags/C-11/"/>
     
@@ -276,19 +293,19 @@
     <link href="https://leochen12138-a.github.io/p/3dd7ffa7/index.html"/>
     <id>https://leochen12138-a.github.io/p/3dd7ffa7/index.html</id>
     <published>2021-03-30T13:31:02.000Z</published>
-    <updated>2021-03-30T14:21:37.313Z</updated>
+    <updated>2021-03-31T04:54:30.859Z</updated>
     
     
     <summary type="html">这是一篇 C 的记录</summary>
     
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/categories/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/categories/PL/"/>
     
-    <category term="C" scheme="https://leochen12138-a.github.io/categories/Programming-Language/C/"/>
+    <category term="C" scheme="https://leochen12138-a.github.io/categories/PL/C/"/>
     
     
-    <category term="Programming Language" scheme="https://leochen12138-a.github.io/tags/Programming-Language/"/>
+    <category term="PL" scheme="https://leochen12138-a.github.io/tags/PL/"/>
     
     <category term="C" scheme="https://leochen12138-a.github.io/tags/C/"/>
     
@@ -318,19 +335,21 @@
     <link href="https://leochen12138-a.github.io/p/4eb2f4bd/index.html"/>
     <id>https://leochen12138-a.github.io/p/4eb2f4bd/index.html</id>
     <published>2021-03-30T13:29:19.000Z</published>
-    <updated>2021-03-30T14:21:37.532Z</updated>
+    <updated>2021-03-31T04:53:56.106Z</updated>
     
     
     <summary type="html">这是一篇 CSRank 的记录</summary>
     
     
     
-    <category term="Rank" scheme="https://leochen12138-a.github.io/categories/Rank/"/>
+    <category term="Paper" scheme="https://leochen12138-a.github.io/categories/Paper/"/>
     
-    <category term="CS" scheme="https://leochen12138-a.github.io/categories/Rank/CS/"/>
+    <category term="Rank" scheme="https://leochen12138-a.github.io/categories/Paper/Rank/"/>
     
     
     <category term="CS" scheme="https://leochen12138-a.github.io/tags/CS/"/>
+    
+    <category term="Paper" scheme="https://leochen12138-a.github.io/tags/Paper/"/>
     
     <category term="Rank" scheme="https://leochen12138-a.github.io/tags/Rank/"/>
     
@@ -341,15 +360,19 @@
     <link href="https://leochen12138-a.github.io/p/4a58fc60/index.html"/>
     <id>https://leochen12138-a.github.io/p/4a58fc60/index.html</id>
     <published>2021-03-30T13:28:39.000Z</published>
-    <updated>2021-03-30T14:21:37.311Z</updated>
+    <updated>2021-03-31T04:53:25.627Z</updated>
     
     
     <summary type="html">这是一篇 Org 的记录</summary>
     
     
     
-    <category term="Org" scheme="https://leochen12138-a.github.io/categories/Org/"/>
+    <category term="Paper" scheme="https://leochen12138-a.github.io/categories/Paper/"/>
     
+    <category term="Org" scheme="https://leochen12138-a.github.io/categories/Paper/Org/"/>
+    
+    
+    <category term="Paper" scheme="https://leochen12138-a.github.io/tags/Paper/"/>
     
     <category term="Org" scheme="https://leochen12138-a.github.io/tags/Org/"/>
     
@@ -360,15 +383,19 @@
     <link href="https://leochen12138-a.github.io/p/3aa8d8a5/index.html"/>
     <id>https://leochen12138-a.github.io/p/3aa8d8a5/index.html</id>
     <published>2021-03-30T13:28:00.000Z</published>
-    <updated>2021-03-30T14:21:37.293Z</updated>
+    <updated>2021-03-31T04:52:50.619Z</updated>
     
     
     <summary type="html">这是一篇 Meeting 的记录</summary>
     
     
     
-    <category term="Meeting" scheme="https://leochen12138-a.github.io/categories/Meeting/"/>
+    <category term="Paper" scheme="https://leochen12138-a.github.io/categories/Paper/"/>
     
+    <category term="Meeting" scheme="https://leochen12138-a.github.io/categories/Paper/Meeting/"/>
+    
+    
+    <category term="Paper" scheme="https://leochen12138-a.github.io/tags/Paper/"/>
     
     <category term="Meeting" scheme="https://leochen12138-a.github.io/tags/Meeting/"/>
     
@@ -471,7 +498,7 @@
     <link href="https://leochen12138-a.github.io/p/7315081b/index.html"/>
     <id>https://leochen12138-a.github.io/p/7315081b/index.html</id>
     <published>2021-03-30T13:19:26.000Z</published>
-    <updated>2021-03-30T14:21:37.526Z</updated>
+    <updated>2021-03-31T04:52:00.588Z</updated>
     
     
     <summary type="html">这是一篇 MS-Dos 的记录</summary>
@@ -480,7 +507,7 @@
     
     <category term="OS" scheme="https://leochen12138-a.github.io/categories/OS/"/>
     
-    <category term="Command" scheme="https://leochen12138-a.github.io/categories/OS/Command/"/>
+    <category term="Windows" scheme="https://leochen12138-a.github.io/categories/OS/Windows/"/>
     
     
     <category term="OS" scheme="https://leochen12138-a.github.io/tags/OS/"/>
@@ -496,7 +523,7 @@
     <link href="https://leochen12138-a.github.io/p/97eee4e6/index.html"/>
     <id>https://leochen12138-a.github.io/p/97eee4e6/index.html</id>
     <published>2021-03-30T13:16:06.000Z</published>
-    <updated>2021-03-30T14:21:36.814Z</updated>
+    <updated>2021-03-31T04:51:21.095Z</updated>
     
     
     <summary type="html">这是一篇 数学竞赛 的记录</summary>
@@ -508,6 +535,8 @@
     
     <category term="Mathematics" scheme="https://leochen12138-a.github.io/tags/Mathematics/"/>
     
+    <category term="Compete" scheme="https://leochen12138-a.github.io/tags/Compete/"/>
+    
   </entry>
   
   <entry>
@@ -515,7 +544,7 @@
     <link href="https://leochen12138-a.github.io/p/7b795dc5/index.html"/>
     <id>https://leochen12138-a.github.io/p/7b795dc5/index.html</id>
     <published>2021-03-30T13:15:57.000Z</published>
-    <updated>2021-03-30T14:21:36.807Z</updated>
+    <updated>2021-03-31T04:50:58.365Z</updated>
     
     
     <summary type="html">这是一篇 数学文献 的记录</summary>
@@ -526,6 +555,8 @@
     
     
     <category term="Mathematics" scheme="https://leochen12138-a.github.io/tags/Mathematics/"/>
+    
+    <category term="Paper" scheme="https://leochen12138-a.github.io/tags/Paper/"/>
     
   </entry>
   
@@ -1336,7 +1367,7 @@
     <link href="https://leochen12138-a.github.io/p/33fbd027/index.html"/>
     <id>https://leochen12138-a.github.io/p/33fbd027/index.html</id>
     <published>2021-03-30T11:49:54.000Z</published>
-    <updated>2021-03-30T14:21:37.363Z</updated>
+    <updated>2021-03-31T04:42:05.837Z</updated>
     
     
     <summary type="html">这是一篇 Gist 的记录</summary>
@@ -1344,8 +1375,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="Github" scheme="https://leochen12138-a.github.io/categories/DevOps/Github/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -1361,7 +1390,7 @@
     <link href="https://leochen12138-a.github.io/p/caf5c873/index.html"/>
     <id>https://leochen12138-a.github.io/p/caf5c873/index.html</id>
     <published>2021-03-30T11:38:33.000Z</published>
-    <updated>2021-03-30T14:21:37.369Z</updated>
+    <updated>2021-03-31T04:41:00.895Z</updated>
     
     
     <summary type="html">这是一篇 Actions 的记录</summary>
@@ -1369,8 +1398,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="Github" scheme="https://leochen12138-a.github.io/categories/DevOps/Github/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -1386,7 +1413,7 @@
     <link href="https://leochen12138-a.github.io/p/49782b9b/index.html"/>
     <id>https://leochen12138-a.github.io/p/49782b9b/index.html</id>
     <published>2021-03-30T11:37:18.000Z</published>
-    <updated>2021-03-30T14:21:37.356Z</updated>
+    <updated>2021-03-31T04:41:53.027Z</updated>
     
     
     <summary type="html">这是一篇 Commit 的记录</summary>
@@ -1394,8 +1421,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="Github" scheme="https://leochen12138-a.github.io/categories/DevOps/Github/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -1430,14 +1455,14 @@
     <link href="https://leochen12138-a.github.io/p/498ab7d9/index.html"/>
     <id>https://leochen12138-a.github.io/p/498ab7d9/index.html</id>
     <published>2021-03-30T05:38:32.000Z</published>
-    <updated>2021-03-30T14:21:36.836Z</updated>
+    <updated>2021-03-30T23:55:28.961Z</updated>
     
     
     <summary type="html">这是一篇 机器学习 的记录</summary>
     
     
     
-    <category term="AI - ML" scheme="https://leochen12138-a.github.io/categories/AI-ML/"/>
+    <category term="AI" scheme="https://leochen12138-a.github.io/categories/AI/"/>
     
     
     <category term="AI" scheme="https://leochen12138-a.github.io/tags/AI/"/>
@@ -1472,7 +1497,7 @@
     <link href="https://leochen12138-a.github.io/p/138e5bbd/index.html"/>
     <id>https://leochen12138-a.github.io/p/138e5bbd/index.html</id>
     <published>2021-03-30T03:55:54.000Z</published>
-    <updated>2021-03-30T14:21:37.438Z</updated>
+    <updated>2021-03-31T04:48:07.401Z</updated>
     
     
     <summary type="html">这是一篇 音乐形式 的记录</summary>
@@ -1480,8 +1505,6 @@
     
     
     <category term="Life" scheme="https://leochen12138-a.github.io/categories/Life/"/>
-    
-    <category term="Music" scheme="https://leochen12138-a.github.io/categories/Life/Music/"/>
     
     
     <category term="Life" scheme="https://leochen12138-a.github.io/tags/Life/"/>
@@ -1495,7 +1518,7 @@
     <link href="https://leochen12138-a.github.io/p/7815d3b3/index.html"/>
     <id>https://leochen12138-a.github.io/p/7815d3b3/index.html</id>
     <published>2021-03-30T01:53:20.000Z</published>
-    <updated>2021-03-30T14:21:37.149Z</updated>
+    <updated>2021-03-31T04:48:17.631Z</updated>
     
     
     <summary type="html">这是一篇 故事 的记录</summary>
@@ -1503,8 +1526,6 @@
     
     
     <category term="Life" scheme="https://leochen12138-a.github.io/categories/Life/"/>
-    
-    <category term="Story" scheme="https://leochen12138-a.github.io/categories/Life/Story/"/>
     
     
     <category term="Life" scheme="https://leochen12138-a.github.io/tags/Life/"/>
@@ -1537,7 +1558,7 @@
     <link href="https://leochen12138-a.github.io/p/2eec1551/index.html"/>
     <id>https://leochen12138-a.github.io/p/2eec1551/index.html</id>
     <published>2021-03-30T01:43:48.000Z</published>
-    <updated>2021-03-30T14:21:36.871Z</updated>
+    <updated>2021-03-30T23:56:39.892Z</updated>
     
     
     <summary type="html">这是一篇 HTML 的记录</summary>
@@ -1545,8 +1566,6 @@
     
     
     <category term="Web" scheme="https://leochen12138-a.github.io/categories/Web/"/>
-    
-    <category term="HTML" scheme="https://leochen12138-a.github.io/categories/Web/HTML/"/>
     
     
     <category term="Web" scheme="https://leochen12138-a.github.io/tags/Web/"/>
@@ -1560,14 +1579,14 @@
     <link href="https://leochen12138-a.github.io/p/ee69e452/index.html"/>
     <id>https://leochen12138-a.github.io/p/ee69e452/index.html</id>
     <published>2021-03-30T01:43:35.000Z</published>
-    <updated>2021-03-30T14:21:36.863Z</updated>
+    <updated>2021-03-30T23:55:44.753Z</updated>
     
     
     <summary type="html">这是一篇 CSS 的记录</summary>
     
     
     
-    <category term="Web - CSS" scheme="https://leochen12138-a.github.io/categories/Web-CSS/"/>
+    <category term="Web" scheme="https://leochen12138-a.github.io/categories/Web/"/>
     
     
     <category term="Web" scheme="https://leochen12138-a.github.io/tags/Web/"/>
@@ -1581,19 +1600,15 @@
     <link href="https://leochen12138-a.github.io/p/cc1b9611/index.html"/>
     <id>https://leochen12138-a.github.io/p/cc1b9611/index.html</id>
     <published>2021-03-30T01:41:54.000Z</published>
-    <updated>2021-03-30T14:21:36.885Z</updated>
+    <updated>2021-03-30T23:57:18.413Z</updated>
     
     
     <summary type="html">这是一篇 JavaScript 的记录</summary>
     
     
     
-    <category term="Web" scheme="https://leochen12138-a.github.io/categories/Web/"/>
+    <category term="Javascript" scheme="https://leochen12138-a.github.io/categories/Javascript/"/>
     
-    <category term="Javascript" scheme="https://leochen12138-a.github.io/categories/Web/Javascript/"/>
-    
-    
-    <category term="Web" scheme="https://leochen12138-a.github.io/tags/Web/"/>
     
     <category term="Javascript" scheme="https://leochen12138-a.github.io/tags/Javascript/"/>
     
@@ -1604,7 +1619,7 @@
     <link href="https://leochen12138-a.github.io/p/feb5b2ff/index.html"/>
     <id>https://leochen12138-a.github.io/p/feb5b2ff/index.html</id>
     <published>2021-03-30T01:40:10.000Z</published>
-    <updated>2021-03-30T14:21:37.428Z</updated>
+    <updated>2021-03-31T04:47:28.105Z</updated>
     
     
     <summary type="html">这是一篇 电路 的记录</summary>
@@ -1612,8 +1627,6 @@
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/categories/Hardware/"/>
-    
-    <category term="Physics" scheme="https://leochen12138-a.github.io/categories/Hardware/Physics/"/>
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/tags/Hardware/"/>
@@ -1629,7 +1642,7 @@
     <link href="https://leochen12138-a.github.io/p/bf59c33f/index.html"/>
     <id>https://leochen12138-a.github.io/p/bf59c33f/index.html</id>
     <published>2021-03-30T01:39:03.000Z</published>
-    <updated>2021-03-30T14:21:37.115Z</updated>
+    <updated>2021-03-31T04:47:15.795Z</updated>
     
     
     <summary type="html">这是一篇 物理学 的记录</summary>
@@ -1637,8 +1650,6 @@
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/categories/Hardware/"/>
-    
-    <category term="Physics" scheme="https://leochen12138-a.github.io/categories/Hardware/Physics/"/>
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/tags/Hardware/"/>
@@ -1652,7 +1663,7 @@
     <link href="https://leochen12138-a.github.io/p/f90540f5/index.html"/>
     <id>https://leochen12138-a.github.io/p/f90540f5/index.html</id>
     <published>2021-03-30T01:30:50.000Z</published>
-    <updated>2021-03-30T14:21:37.145Z</updated>
+    <updated>2021-03-31T04:47:44.078Z</updated>
     
     
     <summary type="html">这是一篇 Raspberry Pi 的记录</summary>
@@ -1661,12 +1672,10 @@
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/categories/Hardware/"/>
     
-    <category term="Raspberry" scheme="https://leochen12138-a.github.io/categories/Hardware/Raspberry/"/>
-    
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/tags/Hardware/"/>
     
-    <category term="Raspberry" scheme="https://leochen12138-a.github.io/tags/Raspberry/"/>
+    <category term="Raspberry Pi" scheme="https://leochen12138-a.github.io/tags/Raspberry-Pi/"/>
     
   </entry>
   
@@ -1675,7 +1684,7 @@
     <link href="https://leochen12138-a.github.io/p/e698dd8/index.html"/>
     <id>https://leochen12138-a.github.io/p/e698dd8/index.html</id>
     <published>2021-03-30T01:26:55.000Z</published>
-    <updated>2021-03-30T14:21:37.053Z</updated>
+    <updated>2021-03-31T04:47:00.584Z</updated>
     
     
     <summary type="html">这是一篇 IoT 的记录</summary>
@@ -1683,8 +1692,6 @@
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/categories/Hardware/"/>
-    
-    <category term="IoT" scheme="https://leochen12138-a.github.io/categories/Hardware/IoT/"/>
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/tags/Hardware/"/>
@@ -1698,7 +1705,7 @@
     <link href="https://leochen12138-a.github.io/p/69c3279c/index.html"/>
     <id>https://leochen12138-a.github.io/p/69c3279c/index.html</id>
     <published>2021-03-30T01:25:48.000Z</published>
-    <updated>2021-03-30T14:21:36.912Z</updated>
+    <updated>2021-03-31T04:40:48.265Z</updated>
     
     
     <summary type="html">这是一篇 Git 的记录</summary>
@@ -1706,8 +1713,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="Git" scheme="https://leochen12138-a.github.io/categories/DevOps/Git/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -1796,7 +1801,7 @@
     <link href="https://leochen12138-a.github.io/p/b56735a0/index.html"/>
     <id>https://leochen12138-a.github.io/p/b56735a0/index.html</id>
     <published>2021-03-30T01:22:28.000Z</published>
-    <updated>2021-03-30T14:21:37.399Z</updated>
+    <updated>2021-03-31T04:44:47.879Z</updated>
     
     
     <summary type="html">这是一篇 Godot 的记录</summary>
@@ -1811,6 +1816,8 @@
     <category term="Engine" scheme="https://leochen12138-a.github.io/tags/Engine/"/>
     
     <category term="Game" scheme="https://leochen12138-a.github.io/tags/Game/"/>
+    
+    <category term="Godot" scheme="https://leochen12138-a.github.io/tags/Godot/"/>
     
   </entry>
   
@@ -1842,19 +1849,17 @@
     <link href="https://leochen12138-a.github.io/p/c1a7b173/index.html"/>
     <id>https://leochen12138-a.github.io/p/c1a7b173/index.html</id>
     <published>2021-03-30T01:18:27.000Z</published>
-    <updated>2021-03-30T14:21:36.888Z</updated>
+    <updated>2021-03-30T23:59:13.838Z</updated>
     
     
     <summary type="html">这是一篇 Cracker 的记录</summary>
     
     
     
-    <category term="Computer Security" scheme="https://leochen12138-a.github.io/categories/Computer-Security/"/>
-    
-    <category term="Cracker" scheme="https://leochen12138-a.github.io/categories/Computer-Security/Cracker/"/>
+    <category term="Security" scheme="https://leochen12138-a.github.io/categories/Security/"/>
     
     
-    <category term="Computer Security" scheme="https://leochen12138-a.github.io/tags/Computer-Security/"/>
+    <category term="Security" scheme="https://leochen12138-a.github.io/tags/Security/"/>
     
     <category term="Cracker" scheme="https://leochen12138-a.github.io/tags/Cracker/"/>
     
@@ -1926,7 +1931,7 @@
     <link href="https://leochen12138-a.github.io/p/7c012408/index.html"/>
     <id>https://leochen12138-a.github.io/p/7c012408/index.html</id>
     <published>2021-03-30T01:05:44.000Z</published>
-    <updated>2021-03-30T14:21:37.017Z</updated>
+    <updated>2021-03-31T04:46:00.723Z</updated>
     
     
     <summary type="html">这是一篇 可视化 的记录</summary>
@@ -1934,8 +1939,6 @@
     
     
     <category term="Graphics" scheme="https://leochen12138-a.github.io/categories/Graphics/"/>
-    
-    <category term="Visualization" scheme="https://leochen12138-a.github.io/categories/Graphics/Visualization/"/>
     
     
     <category term="Graphics" scheme="https://leochen12138-a.github.io/tags/Graphics/"/>
@@ -1949,7 +1952,7 @@
     <link href="https://leochen12138-a.github.io/p/f79b6d27/index.html"/>
     <id>https://leochen12138-a.github.io/p/f79b6d27/index.html</id>
     <published>2021-03-30T01:05:11.000Z</published>
-    <updated>2021-03-30T14:21:37.012Z</updated>
+    <updated>2021-03-31T04:44:59.893Z</updated>
     
     
     <summary type="html">这是一篇 游戏引擎 的记录</summary>
@@ -1972,14 +1975,14 @@
     <link href="https://leochen12138-a.github.io/p/8f57e178/index.html"/>
     <id>https://leochen12138-a.github.io/p/8f57e178/index.html</id>
     <published>2021-03-30T01:04:42.000Z</published>
-    <updated>2021-03-30T14:21:36.833Z</updated>
+    <updated>2021-03-30T23:55:08.853Z</updated>
     
     
     <summary type="html">这是一篇 数据清理 的记录</summary>
     
     
     
-    <category term="AI - Data Clean" scheme="https://leochen12138-a.github.io/categories/AI-Data-Clean/"/>
+    <category term="AI" scheme="https://leochen12138-a.github.io/categories/AI/"/>
     
     
     <category term="AI" scheme="https://leochen12138-a.github.io/tags/AI/"/>
@@ -1993,14 +1996,14 @@
     <link href="https://leochen12138-a.github.io/p/33115a55/index.html"/>
     <id>https://leochen12138-a.github.io/p/33115a55/index.html</id>
     <published>2021-03-30T01:04:23.000Z</published>
-    <updated>2021-03-30T14:21:36.855Z</updated>
+    <updated>2021-03-30T23:55:21.229Z</updated>
     
     
     <summary type="html">这是一篇 深度学习 的记录</summary>
     
     
     
-    <category term="AI - DL" scheme="https://leochen12138-a.github.io/categories/AI-DL/"/>
+    <category term="AI" scheme="https://leochen12138-a.github.io/categories/AI/"/>
     
     
     <category term="AI" scheme="https://leochen12138-a.github.io/tags/AI/"/>
@@ -2014,7 +2017,7 @@
     <link href="https://leochen12138-a.github.io/p/e649e7f3/index.html"/>
     <id>https://leochen12138-a.github.io/p/e649e7f3/index.html</id>
     <published>2021-03-30T01:03:51.000Z</published>
-    <updated>2021-03-30T14:21:36.967Z</updated>
+    <updated>2021-03-31T04:42:38.900Z</updated>
     
     
     <summary type="html">这是一篇 OpenStack 的记录</summary>
@@ -2022,8 +2025,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="OpenStack" scheme="https://leochen12138-a.github.io/categories/DevOps/OpenStack/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -2037,7 +2038,7 @@
     <link href="https://leochen12138-a.github.io/p/f5f9fa9b/index.html"/>
     <id>https://leochen12138-a.github.io/p/f5f9fa9b/index.html</id>
     <published>2021-03-30T01:01:59.000Z</published>
-    <updated>2021-03-30T14:21:36.945Z</updated>
+    <updated>2021-03-31T04:40:01.058Z</updated>
     
     
     <summary type="html">这是一篇 Docker 的记录</summary>
@@ -2045,8 +2046,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="Docker" scheme="https://leochen12138-a.github.io/categories/DevOps/Docker/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -2060,7 +2059,7 @@
     <link href="https://leochen12138-a.github.io/p/285fbc0e/index.html"/>
     <id>https://leochen12138-a.github.io/p/285fbc0e/index.html</id>
     <published>2021-03-30T01:01:27.000Z</published>
-    <updated>2021-03-30T14:21:37.023Z</updated>
+    <updated>2021-03-31T04:46:48.708Z</updated>
     
     
     <summary type="html">这是一篇 控制论 的记录</summary>
@@ -2068,8 +2067,6 @@
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/categories/Hardware/"/>
-    
-    <category term="Control Theory" scheme="https://leochen12138-a.github.io/categories/Hardware/Control-Theory/"/>
     
     
     <category term="Hardware" scheme="https://leochen12138-a.github.io/tags/Hardware/"/>
@@ -2083,19 +2080,19 @@
     <link href="https://leochen12138-a.github.io/p/1a7e17b2/index.html"/>
     <id>https://leochen12138-a.github.io/p/1a7e17b2/index.html</id>
     <published>2021-03-30T00:56:52.000Z</published>
-    <updated>2021-03-30T14:21:36.797Z</updated>
+    <updated>2021-03-31T04:46:31.932Z</updated>
     
     
     <summary type="html">这是一篇 地图生成集 的记录</summary>
     
     
     
-    <category term="Computer Graphics" scheme="https://leochen12138-a.github.io/categories/Computer-Graphics/"/>
+    <category term="Graphics" scheme="https://leochen12138-a.github.io/categories/Graphics/"/>
     
-    <category term="Map" scheme="https://leochen12138-a.github.io/categories/Computer-Graphics/Map/"/>
+    <category term="Map" scheme="https://leochen12138-a.github.io/categories/Graphics/Map/"/>
     
     
-    <category term="Computer Graphics" scheme="https://leochen12138-a.github.io/tags/Computer-Graphics/"/>
+    <category term="Graphics" scheme="https://leochen12138-a.github.io/tags/Graphics/"/>
     
     <category term="Map" scheme="https://leochen12138-a.github.io/tags/Map/"/>
     
@@ -2106,17 +2103,17 @@
     <link href="https://leochen12138-a.github.io/p/56810d78/index.html"/>
     <id>https://leochen12138-a.github.io/p/56810d78/index.html</id>
     <published>2021-03-30T00:56:26.000Z</published>
-    <updated>2021-03-30T14:21:36.790Z</updated>
+    <updated>2021-03-31T04:46:23.365Z</updated>
     
     
     <summary type="html">这是一篇 图形学 的记录</summary>
     
     
     
-    <category term="Computer Graphics" scheme="https://leochen12138-a.github.io/categories/Computer-Graphics/"/>
+    <category term="Graphics" scheme="https://leochen12138-a.github.io/categories/Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="https://leochen12138-a.github.io/tags/Computer-Graphics/"/>
+    <category term="Graphics" scheme="https://leochen12138-a.github.io/tags/Graphics/"/>
     
   </entry>
   
@@ -2125,17 +2122,17 @@
     <link href="https://leochen12138-a.github.io/p/7e85a985/index.html"/>
     <id>https://leochen12138-a.github.io/p/7e85a985/index.html</id>
     <published>2021-03-30T00:54:34.000Z</published>
-    <updated>2021-03-30T14:21:36.781Z</updated>
+    <updated>2021-03-30T23:59:41.493Z</updated>
     
     
     <summary type="html">这是一篇 计算机安全 的记录</summary>
     
     
     
-    <category term="Computer Security" scheme="https://leochen12138-a.github.io/categories/Computer-Security/"/>
+    <category term="Security" scheme="https://leochen12138-a.github.io/categories/Security/"/>
     
     
-    <category term="Computer Security" scheme="https://leochen12138-a.github.io/tags/Computer-Security/"/>
+    <category term="Security" scheme="https://leochen12138-a.github.io/tags/Security/"/>
     
   </entry>
   
@@ -2144,19 +2141,19 @@
     <link href="https://leochen12138-a.github.io/p/abb54922/index.html"/>
     <id>https://leochen12138-a.github.io/p/abb54922/index.html</id>
     <published>2021-03-30T00:54:01.000Z</published>
-    <updated>2021-03-30T14:21:36.908Z</updated>
+    <updated>2021-03-30T23:59:31.533Z</updated>
     
     
     <summary type="html">这是一篇 密码学 的记录</summary>
     
     
     
-    <category term="Computer Security" scheme="https://leochen12138-a.github.io/categories/Computer-Security/"/>
+    <category term="Security" scheme="https://leochen12138-a.github.io/categories/Security/"/>
     
-    <category term="Cryptology" scheme="https://leochen12138-a.github.io/categories/Computer-Security/Cryptology/"/>
+    <category term="Cryptology" scheme="https://leochen12138-a.github.io/categories/Security/Cryptology/"/>
     
     
-    <category term="Computer Security" scheme="https://leochen12138-a.github.io/tags/Computer-Security/"/>
+    <category term="Security" scheme="https://leochen12138-a.github.io/tags/Security/"/>
     
     <category term="Cryptology" scheme="https://leochen12138-a.github.io/tags/Cryptology/"/>
     
@@ -2209,7 +2206,7 @@
     <link href="https://leochen12138-a.github.io/p/d19cdba9/index.html"/>
     <id>https://leochen12138-a.github.io/p/d19cdba9/index.html</id>
     <published>2021-03-25T02:36:31.000Z</published>
-    <updated>2021-03-30T11:48:41.577Z</updated>
+    <updated>2021-03-31T04:42:26.797Z</updated>
     
     
     <summary type="html">这是一篇 Git Github 备忘单 的记录</summary>
@@ -2218,14 +2215,12 @@
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
     
-    <category term="Github" scheme="https://leochen12138-a.github.io/categories/DevOps/Github/"/>
-    
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
     
-    <category term="Github" scheme="https://leochen12138-a.github.io/tags/Github/"/>
-    
     <category term="Git" scheme="https://leochen12138-a.github.io/tags/Git/"/>
+    
+    <category term="Github" scheme="https://leochen12138-a.github.io/tags/Github/"/>
     
     <category term="Cheat Sheet" scheme="https://leochen12138-a.github.io/tags/Cheat-Sheet/"/>
     
@@ -2255,17 +2250,17 @@
     <link href="https://leochen12138-a.github.io/p/5c4efa45/index.html"/>
     <id>https://leochen12138-a.github.io/p/5c4efa45/index.html</id>
     <published>2021-02-20T13:28:05.000Z</published>
-    <updated>2021-03-30T11:20:57.829Z</updated>
+    <updated>2021-03-30T23:58:42.201Z</updated>
     
     
     <summary type="html">这是一篇 Computer Network 的记录</summary>
     
     
     
-    <category term="Computer Network" scheme="https://leochen12138-a.github.io/categories/Computer-Network/"/>
+    <category term="Network" scheme="https://leochen12138-a.github.io/categories/Network/"/>
     
     
-    <category term="Computer Network" scheme="https://leochen12138-a.github.io/tags/Computer-Network/"/>
+    <category term="Network" scheme="https://leochen12138-a.github.io/tags/Network/"/>
     
   </entry>
   
@@ -2274,19 +2269,15 @@
     <link href="https://leochen12138-a.github.io/p/e3873d73/index.html"/>
     <id>https://leochen12138-a.github.io/p/e3873d73/index.html</id>
     <published>2021-02-14T02:50:07.000Z</published>
-    <updated>2021-03-30T10:59:51.791Z</updated>
+    <updated>2021-03-30T23:57:59.406Z</updated>
     
     
     <summary type="html">这是一篇 Markdown 的记录</summary>
     
     
     
-    <category term="Language" scheme="https://leochen12138-a.github.io/categories/Language/"/>
+    <category term="Markdown" scheme="https://leochen12138-a.github.io/categories/Markdown/"/>
     
-    <category term="Markdown" scheme="https://leochen12138-a.github.io/categories/Language/Markdown/"/>
-    
-    
-    <category term="Language" scheme="https://leochen12138-a.github.io/tags/Language/"/>
     
     <category term="Markdown" scheme="https://leochen12138-a.github.io/tags/Markdown/"/>
     
@@ -2297,7 +2288,7 @@
     <link href="https://leochen12138-a.github.io/p/361de698/index.html"/>
     <id>https://leochen12138-a.github.io/p/361de698/index.html</id>
     <published>2021-02-12T09:06:27.000Z</published>
-    <updated>2021-03-30T11:19:38.672Z</updated>
+    <updated>2021-03-30T23:58:13.621Z</updated>
     
     
     <summary type="html">这是一篇 CCF CSP与PAT 的记录</summary>
@@ -2345,11 +2336,11 @@
   </entry>
   
   <entry>
-    <title>考研数学一的思考(一)</title>
+    <title>考研数学一</title>
     <link href="https://leochen12138-a.github.io/p/93e4730e/index.html"/>
     <id>https://leochen12138-a.github.io/p/93e4730e/index.html</id>
     <published>2021-02-07T15:07:04.000Z</published>
-    <updated>2021-03-30T14:01:23.287Z</updated>
+    <updated>2021-03-31T04:50:46.366Z</updated>
     
     
     <summary type="html">基于“黄博士网”的高等数学手册,考研数学一大纲的复习笔记。</summary>
@@ -2358,14 +2349,12 @@
     
     <category term="Mathematics" scheme="https://leochen12138-a.github.io/categories/Mathematics/"/>
     
-    <category term="考研" scheme="https://leochen12138-a.github.io/categories/Mathematics/%E8%80%83%E7%A0%94/"/>
-    
-    <category term="数学一" scheme="https://leochen12138-a.github.io/categories/Mathematics/%E8%80%83%E7%A0%94/%E6%95%B0%E5%AD%A6%E4%B8%80/"/>
+    <category term="考研数学" scheme="https://leochen12138-a.github.io/categories/Mathematics/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/"/>
     
     
     <category term="Mathematics" scheme="https://leochen12138-a.github.io/tags/Mathematics/"/>
     
-    <category term="考研" scheme="https://leochen12138-a.github.io/tags/%E8%80%83%E7%A0%94/"/>
+    <category term="考研数学" scheme="https://leochen12138-a.github.io/tags/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/"/>
     
     <category term="数学一" scheme="https://leochen12138-a.github.io/tags/%E6%95%B0%E5%AD%A6%E4%B8%80/"/>
     
@@ -2376,7 +2365,7 @@
     <link href="https://leochen12138-a.github.io/p/6cb83021/index.html"/>
     <id>https://leochen12138-a.github.io/p/6cb83021/index.html</id>
     <published>2020-08-21T01:02:45.000Z</published>
-    <updated>2021-03-30T11:49:32.074Z</updated>
+    <updated>2021-03-31T04:42:18.733Z</updated>
     
     
     <summary type="html">这是一篇 Github_Plug 的记录</summary>
@@ -2384,8 +2373,6 @@
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/categories/DevOps/"/>
-    
-    <category term="Github" scheme="https://leochen12138-a.github.io/categories/DevOps/Github/"/>
     
     
     <category term="DevOps" scheme="https://leochen12138-a.github.io/tags/DevOps/"/>
@@ -2426,7 +2413,7 @@
     <link href="https://leochen12138-a.github.io/p/37235ffc/index.html"/>
     <id>https://leochen12138-a.github.io/p/37235ffc/index.html</id>
     <published>2020-08-06T09:44:56.000Z</published>
-    <updated>2021-03-30T10:48:17.501Z</updated>
+    <updated>2021-03-30T23:56:57.601Z</updated>
     
     
     <summary type="html">这是一篇 Node.js_Install 的记录</summary>
@@ -2435,12 +2422,12 @@
     
     <category term="Javascript" scheme="https://leochen12138-a.github.io/categories/Javascript/"/>
     
-    <category term="Nodejs" scheme="https://leochen12138-a.github.io/categories/Javascript/Nodejs/"/>
+    <category term="Node.js" scheme="https://leochen12138-a.github.io/categories/Javascript/Node-js/"/>
     
     
     <category term="Javascript" scheme="https://leochen12138-a.github.io/tags/Javascript/"/>
     
-    <category term="Nodejs" scheme="https://leochen12138-a.github.io/tags/Nodejs/"/>
+    <category term="Node.js" scheme="https://leochen12138-a.github.io/tags/Node-js/"/>
     
     <category term="nvm-windows" scheme="https://leochen12138-a.github.io/tags/nvm-windows/"/>
     
@@ -2453,7 +2440,7 @@
     <link href="https://leochen12138-a.github.io/p/b7b5d508/index.html"/>
     <id>https://leochen12138-a.github.io/p/b7b5d508/index.html</id>
     <published>2020-07-17T11:07:01.000Z</published>
-    <updated>2021-03-30T11:14:32.151Z</updated>
+    <updated>2021-03-30T23:56:05.960Z</updated>
     
     
     <summary type="html">这是一篇 Hexo_Install 的记录</summary>
@@ -2462,12 +2449,10 @@
     
     <category term="Hexo" scheme="https://leochen12138-a.github.io/categories/Hexo/"/>
     
-    <category term="Hexo_butterfly" scheme="https://leochen12138-a.github.io/categories/Hexo/Hexo-butterfly/"/>
-    
-    
-    <category term="Hexo" scheme="https://leochen12138-a.github.io/tags/Hexo/"/>
     
     <category term="Hexo_butterfly" scheme="https://leochen12138-a.github.io/tags/Hexo-butterfly/"/>
+    
+    <category term="Hexo" scheme="https://leochen12138-a.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -2476,19 +2461,19 @@
     <link href="https://leochen12138-a.github.io/p/58d8cc5e/index.html"/>
     <id>https://leochen12138-a.github.io/p/58d8cc5e/index.html</id>
     <published>2020-07-17T10:31:14.000Z</published>
-    <updated>2021-03-30T11:06:07.857Z</updated>
+    <updated>2021-03-31T04:57:49.930Z</updated>
     
     
     <summary type="html">这是一篇 (转载)hexo-butterfly标签外挂 的记录</summary>
     
     
     
-    <category term="Hexo" scheme="https://leochen12138-a.github.io/categories/Hexo/"/>
+    <category term="ReprintArticle" scheme="https://leochen12138-a.github.io/categories/ReprintArticle/"/>
     
-    <category term="Hexo_butterfly" scheme="https://leochen12138-a.github.io/categories/Hexo/Hexo-butterfly/"/>
+    <category term="Hexo_butterfly" scheme="https://leochen12138-a.github.io/categories/ReprintArticle/Hexo-butterfly/"/>
     
     
-    <category term="Hexo" scheme="https://leochen12138-a.github.io/tags/Hexo/"/>
+    <category term="ReprintArticle" scheme="https://leochen12138-a.github.io/tags/ReprintArticle/"/>
     
     <category term="Hexo_butterfly" scheme="https://leochen12138-a.github.io/tags/Hexo-butterfly/"/>
     
