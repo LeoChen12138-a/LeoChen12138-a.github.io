@@ -15,31 +15,8 @@
     <atom:link href="https://leochen12138-a.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习,记录,测试</description>
-    <pubDate>Tue, 30 Mar 2021 23:54:42 GMT</pubDate>
+    <pubDate>Tue, 30 Mar 2021 14:21:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>Algorithm_Type List</title>
-      <link>https://leochen12138-a.github.io/p/789eb7ca/index.html</link>
-      <guid>https://leochen12138-a.github.io/p/789eb7ca/index.html</guid>
-      <pubDate>Tue, 30 Mar 2021 23:53:38 GMT</pubDate>
-      
-      <description>这是一篇 Algorithm_Type List 的记录</description>
-      
-      
-      
-      
-      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
-      
-      
-      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
-      
-      <category domain="https://leochen12138-a.github.io/tags/List/">List</category>
-      
-      
-      <comments>https://leochen12138-a.github.io/p/789eb7ca/index.html#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>符号学</title>
@@ -1596,29 +1573,6 @@
       
       
       <comments>https://leochen12138-a.github.io/p/498ab7d9/index.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Viterbi_Algorithm</title>
-      <link>https://leochen12138-a.github.io/p/c812737a/index.html</link>
-      <guid>https://leochen12138-a.github.io/p/c812737a/index.html</guid>
-      <pubDate>Tue, 30 Mar 2021 04:51:42 GMT</pubDate>
-      
-      <description>这是一篇 Viterbi_Algorithm 的记录</description>
-      
-      
-      
-      
-      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
-      
-      
-      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
-      
-      <category domain="https://leochen12138-a.github.io/tags/Viterbi/">Viterbi</category>
-      
-      
-      <comments>https://leochen12138-a.github.io/p/c812737a/index.html#disqus_thread</comments>
       
     </item>
     
