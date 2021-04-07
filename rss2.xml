@@ -15,7 +15,7 @@
     <atom:link href="https://leochen12138-a.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习,记录,测试</description>
-    <pubDate>Thu, 01 Apr 2021 04:26:45 GMT</pubDate>
+    <pubDate>Thu, 01 Apr 2021 04:27:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -2536,9 +2536,9 @@
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Git/">Git</category>
-      
       <category domain="https://leochen12138-a.github.io/tags/Github/">Github</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Git/">Git</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Cheat-Sheet/">Cheat Sheet</category>
       
