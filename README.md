@@ -1,12 +1,12 @@
 # Introduction
 
-The blog system is [HEXO](https://hexo.io/) , Themes used are [hexo-betterfly](https://github.com/jerryc127/hexo-theme-butterfly) 。
+The blog system is [HEXO](https://hexo.io/), Themes used are [hexo-betterfly](https://github.com/jerryc127/hexo-theme-butterfly).
 
-Unless otherwise stated, all articles follow [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 。
+Unless otherwise stated, all articles follow [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh).
 
 Reproduction without permission is prohibited.
 
-Reprinted with permission from [leochen12138-a](https://leochen12138-a.github.io/) !
+Reprinted with permission from [leochen12138-a](https://leochen12138-a.github.io/)!
 
 # Configuration
 
@@ -88,6 +88,8 @@ Reprinted with permission from [leochen12138-a](https://leochen12138-a.github.io
 
 ## Windows
 
+> [Awesome/README-cn.md at master · Awesome-Windows/Awesome · GitHub](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
+>
 > [GitHub - sirredbeard/Awesome-WSL: Awesome list dedicated to Windows Subsystem for Linux](https://github.com/sirredbeard/Awesome-WSL)
 >
 > [GitHub - Awesome-Windows/Awesome: 🎉 An awesome & curated list of best applications and tools for Windows.](https://github.com/Awesome-Windows/Awesome)
