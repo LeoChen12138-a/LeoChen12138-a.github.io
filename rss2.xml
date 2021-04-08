@@ -15,8 +15,1421 @@
     <atom:link href="https://leochen12138-a.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习,记录,测试</description>
-    <pubDate>Thu, 01 Apr 2021 04:27:54 GMT</pubDate>
+    <pubDate>Thu, 08 Apr 2021 03:48:13 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://leochen12138-a.github.io/p/4d712855/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/4d712855/index.html</guid>
+      <pubDate>Thu, 08 Apr 2021 03:38:52 GMT</pubDate>
+      
+      <description>这是一篇 SQL 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/SQL/">SQL</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/SQL/">SQL</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/4d712855/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>UNIX</title>
+      <link>https://leochen12138-a.github.io/p/e398adcc/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/e398adcc/index.html</guid>
+      <pubDate>Thu, 08 Apr 2021 03:12:45 GMT</pubDate>
+      
+      <description>这是一篇 UNIX 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/UNIX/">UNIX</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/UNIX/">UNIX</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/e398adcc/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://leochen12138-a.github.io/p/53d0684b/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/53d0684b/index.html</guid>
+      <pubDate>Thu, 08 Apr 2021 03:12:32 GMT</pubDate>
+      
+      <description>这是一篇 Linux 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Linux/">Linux</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Linux/">Linux</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/53d0684b/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>git_hooks</title>
+      <link>https://leochen12138-a.github.io/p/32d9c867/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/32d9c867/index.html</guid>
+      <pubDate>Thu, 08 Apr 2021 03:02:42 GMT</pubDate>
+      
+      <description>这是一篇 git_hooks 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Git/">Git</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Git/">Git</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/git-hooks/">git hooks</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/32d9c867/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>大数据算法</title>
+      <link>https://leochen12138-a.github.io/p/c08a2da3/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/c08a2da3/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:53:32 GMT</pubDate>
+      
+      <description>这是一篇 大数据算法 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/c08a2da3/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>多项式问题</title>
+      <link>https://leochen12138-a.github.io/p/b2e165e5/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b2e165e5/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:46:30 GMT</pubDate>
+      
+      <description>这是一篇 多项式问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b2e165e5/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>级数</title>
+      <link>https://leochen12138-a.github.io/p/5a70da51/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/5a70da51/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:35:01 GMT</pubDate>
+      
+      <description>这是一篇 级数 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/5a70da51/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>自动机</title>
+      <link>https://leochen12138-a.github.io/p/b3ed17c0/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b3ed17c0/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:28:44 GMT</pubDate>
+      
+      <description>这是一篇 自动机 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b3ed17c0/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>生命游戏</title>
+      <link>https://leochen12138-a.github.io/p/d7c1dece/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/d7c1dece/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:28:36 GMT</pubDate>
+      
+      <description>这是一篇 生命游戏 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/d7c1dece/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>自然语言处理</title>
+      <link>https://leochen12138-a.github.io/p/6edc6e28/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/6edc6e28/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:28:11 GMT</pubDate>
+      
+      <description>这是一篇 自然语言处理 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/6edc6e28/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>信息论</title>
+      <link>https://leochen12138-a.github.io/p/8a8bfa9b/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/8a8bfa9b/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:28:02 GMT</pubDate>
+      
+      <description>这是一篇 信息论 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E4%BF%A1%E6%81%AF%E8%AE%BA/">信息论</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/8a8bfa9b/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>IO</title>
+      <link>https://leochen12138-a.github.io/p/8601bab2/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/8601bab2/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:27:44 GMT</pubDate>
+      
+      <description>这是一篇 IO 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/IO/">IO</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/8601bab2/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>加密与解密</title>
+      <link>https://leochen12138-a.github.io/p/ac56643f/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/ac56643f/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:27:37 GMT</pubDate>
+      
+      <description>这是一篇 加密与解密 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/Cryptology/">Cryptology</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Cryptology/">Cryptology</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/ac56643f/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>正则表达式</title>
+      <link>https://leochen12138-a.github.io/p/2f57a694/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/2f57a694/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:26:32 GMT</pubDate>
+      
+      <description>这是一篇 正则表达式 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/2f57a694/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>游戏速度问题</title>
+      <link>https://leochen12138-a.github.io/p/38b2e3bf/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/38b2e3bf/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:26:07 GMT</pubDate>
+      
+      <description>这是一篇 游戏速度问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/Amusing/">Amusing</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Amusing/">Amusing</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/38b2e3bf/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>拷贝</title>
+      <link>https://leochen12138-a.github.io/p/9eaaabc1/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/9eaaabc1/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:25:22 GMT</pubDate>
+      
+      <description>这是一篇 拷贝 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/9eaaabc1/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>调度问题</title>
+      <link>https://leochen12138-a.github.io/p/4f166629/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/4f166629/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:24:49 GMT</pubDate>
+      
+      <description>这是一篇 调度问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/4f166629/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>多项式</title>
+      <link>https://leochen12138-a.github.io/p/753f803c/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/753f803c/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:24:39 GMT</pubDate>
+      
+      <description>这是一篇 多项式 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/753f803c/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>数论问题</title>
+      <link>https://leochen12138-a.github.io/p/7be881a5/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/7be881a5/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:24:25 GMT</pubDate>
+      
+      <description>这是一篇 数论问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/7be881a5/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>数列问题</title>
+      <link>https://leochen12138-a.github.io/p/1bd4557f/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/1bd4557f/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:24:15 GMT</pubDate>
+      
+      <description>这是一篇 数列问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/1bd4557f/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>指针</title>
+      <link>https://leochen12138-a.github.io/p/73608288/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/73608288/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:23:57 GMT</pubDate>
+      
+      <description>这是一篇 指针 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/73608288/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>扑克牌问题</title>
+      <link>https://leochen12138-a.github.io/p/b3b1346f/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b3b1346f/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:23:36 GMT</pubDate>
+      
+      <description>这是一篇 扑克牌问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/Amusing/">Amusing</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Amusing/">Amusing</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b3b1346f/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>鸡蛋坠落问题</title>
+      <link>https://leochen12138-a.github.io/p/c73850c6/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/c73850c6/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:22:51 GMT</pubDate>
+      
+      <description>这是一篇 鸡蛋坠落问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/c73850c6/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>字符串问题</title>
+      <link>https://leochen12138-a.github.io/p/f51e608c/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/f51e608c/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:21:17 GMT</pubDate>
+      
+      <description>这是一篇 字符串问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/f51e608c/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>存储结构</title>
+      <link>https://leochen12138-a.github.io/p/3d564605/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/3d564605/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:18:01 GMT</pubDate>
+      
+      <description>这是一篇 存储结构 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/3d564605/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>数据结构</title>
+      <link>https://leochen12138-a.github.io/p/79666db/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/79666db/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:17:54 GMT</pubDate>
+      
+      <description>这是一篇 数据结构 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/79666db/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>波函数坍缩算法</title>
+      <link>https://leochen12138-a.github.io/p/b1697b0f/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b1697b0f/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:17:42 GMT</pubDate>
+      
+      <description>这是一篇 波函数坍缩算法 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b1697b0f/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>数学建模</title>
+      <link>https://leochen12138-a.github.io/p/a66872a2/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/a66872a2/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:17:04 GMT</pubDate>
+      
+      <description>这是一篇 数学建模 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/a66872a2/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>复杂度</title>
+      <link>https://leochen12138-a.github.io/p/71038564/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/71038564/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:16:25 GMT</pubDate>
+      
+      <description>这是一篇 复杂度 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/71038564/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>算法效率</title>
+      <link>https://leochen12138-a.github.io/p/e066f520/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/e066f520/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:16:15 GMT</pubDate>
+      
+      <description>这是一篇 算法效率 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/e066f520/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>镶嵌问题</title>
+      <link>https://leochen12138-a.github.io/p/1f4f34d1/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/1f4f34d1/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:15:27 GMT</pubDate>
+      
+      <description>这是一篇 镶嵌问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/1f4f34d1/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>魔方问题</title>
+      <link>https://leochen12138-a.github.io/p/72619ee0/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/72619ee0/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:15:13 GMT</pubDate>
+      
+      <description>这是一篇 魔方问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/72619ee0/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>几何问题</title>
+      <link>https://leochen12138-a.github.io/p/f0b7231e/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/f0b7231e/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:15:04 GMT</pubDate>
+      
+      <description>这是一篇 几何问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%87%A0%E4%BD%95%E9%97%AE%E9%A2%98/">几何问题</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/f0b7231e/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>算法优化</title>
+      <link>https://leochen12138-a.github.io/p/6a64d8df/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/6a64d8df/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:14:24 GMT</pubDate>
+      
+      <description>这是一篇 算法优化 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/6a64d8df/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>堆</title>
+      <link>https://leochen12138-a.github.io/p/fab451a5/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/fab451a5/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:13:54 GMT</pubDate>
+      
+      <description>这是一篇 堆 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/fab451a5/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>锦标赛问题</title>
+      <link>https://leochen12138-a.github.io/p/79b06afa/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/79b06afa/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:13:43 GMT</pubDate>
+      
+      <description>这是一篇 锦标赛问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/79b06afa/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>插入问题</title>
+      <link>https://leochen12138-a.github.io/p/b8dcbb77/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b8dcbb77/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:13:28 GMT</pubDate>
+      
+      <description>这是一篇 插入问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b8dcbb77/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>删除问题</title>
+      <link>https://leochen12138-a.github.io/p/e128f2c5/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/e128f2c5/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:13:14 GMT</pubDate>
+      
+      <description>这是一篇 删除问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/e128f2c5/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>稀疏矩阵</title>
+      <link>https://leochen12138-a.github.io/p/ef51d401/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/ef51d401/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:12:37 GMT</pubDate>
+      
+      <description>这是一篇 稀疏矩阵 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/ef51d401/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>因式分解</title>
+      <link>https://leochen12138-a.github.io/p/716e92e0/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/716e92e0/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:12:20 GMT</pubDate>
+      
+      <description>这是一篇 因式分解 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%95%B0%E8%AE%BA/">数论</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/716e92e0/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>循环</title>
+      <link>https://leochen12138-a.github.io/p/35aea91f/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/35aea91f/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:11:21 GMT</pubDate>
+      
+      <description>这是一篇 循环 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/35aea91f/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>排序问题</title>
+      <link>https://leochen12138-a.github.io/p/4e7243b4/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/4e7243b4/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:11:11 GMT</pubDate>
+      
+      <description>这是一篇 排序问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/4e7243b4/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>枚举算法</title>
+      <link>https://leochen12138-a.github.io/p/95356e6f/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/95356e6f/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:10:54 GMT</pubDate>
+      
+      <description>这是一篇 枚举算法 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/95356e6f/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>博弈论</title>
+      <link>https://leochen12138-a.github.io/p/12bcd26e/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/12bcd26e/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:10:45 GMT</pubDate>
+      
+      <description>这是一篇 博弈论 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA/">博弈论</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/12bcd26e/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>树</title>
+      <link>https://leochen12138-a.github.io/p/7b216a3b/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/7b216a3b/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:09:18 GMT</pubDate>
+      
+      <description>这是一篇 树 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/7b216a3b/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>线性表</title>
+      <link>https://leochen12138-a.github.io/p/40f24371/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/40f24371/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:09:11 GMT</pubDate>
+      
+      <description>这是一篇 线性表 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/40f24371/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>栈</title>
+      <link>https://leochen12138-a.github.io/p/1f4ac2fb/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/1f4ac2fb/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:09:04 GMT</pubDate>
+      
+      <description>这是一篇 栈 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/1f4ac2fb/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>队列</title>
+      <link>https://leochen12138-a.github.io/p/b6c47025/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b6c47025/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:08:49 GMT</pubDate>
+      
+      <description>这是一篇 队列 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b6c47025/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>线性规划问题</title>
+      <link>https://leochen12138-a.github.io/p/5489c227/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/5489c227/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:08:24 GMT</pubDate>
+      
+      <description>这是一篇 线性规划问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/5489c227/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>背包问题</title>
+      <link>https://leochen12138-a.github.io/p/b2626942/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b2626942/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:08:14 GMT</pubDate>
+      
+      <description>这是一篇 背包问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b2626942/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>最值问题</title>
+      <link>https://leochen12138-a.github.io/p/16359f11/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/16359f11/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:08:02 GMT</pubDate>
+      
+      <description>这是一篇 最值问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/16359f11/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>检索问题</title>
+      <link>https://leochen12138-a.github.io/p/b537b259/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/b537b259/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:07:41 GMT</pubDate>
+      
+      <description>这是一篇 检索问题 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/b537b259/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>递推方程</title>
+      <link>https://leochen12138-a.github.io/p/29b7e18e/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/29b7e18e/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:07:01 GMT</pubDate>
+      
+      <description>这是一篇 递推方程 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/29b7e18e/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>递归</title>
+      <link>https://leochen12138-a.github.io/p/c6654282/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/c6654282/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:06:52 GMT</pubDate>
+      
+      <description>这是一篇 递归 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/c6654282/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>迭代</title>
+      <link>https://leochen12138-a.github.io/p/80469b0c/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/80469b0c/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:06:44 GMT</pubDate>
+      
+      <description>这是一篇 迭代 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/">父1</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/%E7%88%B61/%E5%AD%901/">子1</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE1/">标签1</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E6%A0%87%E7%AD%BE2/">标签2</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/80469b0c/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DP</title>
+      <link>https://leochen12138-a.github.io/p/bea7c90a/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/bea7c90a/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:04:52 GMT</pubDate>
+      
+      <description>这是一篇 DP 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/DP/">DP</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/bea7c90a/index.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>图论</title>
+      <link>https://leochen12138-a.github.io/p/10f14ed7/index.html</link>
+      <guid>https://leochen12138-a.github.io/p/10f14ed7/index.html</guid>
+      <pubDate>Wed, 07 Apr 2021 12:02:06 GMT</pubDate>
+      
+      <description>这是一篇 图论 的记录</description>
+      
+      
+      
+      
+      <category domain="https://leochen12138-a.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Algorithm/">Algorithm</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/%E5%9B%BE%E8%AE%BA/">图论</category>
+      
+      
+      <comments>https://leochen12138-a.github.io/p/10f14ed7/index.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>WebSite_Python</title>
@@ -401,20 +1814,20 @@
     </item>
     
     <item>
-      <title>RSS_Install</title>
+      <title>WebSite_RSS</title>
       <link>https://leochen12138-a.github.io/p/a3b42f00/index.html</link>
       <guid>https://leochen12138-a.github.io/p/a3b42f00/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 14:02:55 GMT</pubDate>
       
-      <description>这是一篇 RSS_Install 的记录</description>
+      <description>这是一篇 WebSite_RSS 的记录</description>
       
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Search/">Search</category>
+      <category domain="https://leochen12138-a.github.io/categories/WebSite/">WebSite</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Search/">Search</category>
+      <category domain="https://leochen12138-a.github.io/tags/WebSite/">WebSite</category>
       
       <category domain="https://leochen12138-a.github.io/tags/RSS/">RSS</category>
       
@@ -424,48 +1837,23 @@
     </item>
     
     <item>
-      <title>WebSite</title>
+      <title>WebSite_ALL</title>
       <link>https://leochen12138-a.github.io/p/28e0cb45/index.html</link>
       <guid>https://leochen12138-a.github.io/p/28e0cb45/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 13:43:32 GMT</pubDate>
       
-      <description>这是一篇 WebSite 的记录</description>
+      <description>这是一篇 WebSite_ALL 的记录</description>
       
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Search/">Search</category>
+      <category domain="https://leochen12138-a.github.io/categories/WebSite/">WebSite</category>
       
-      
-      <category domain="https://leochen12138-a.github.io/tags/Search/">Search</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Website/">Website</category>
       
       
       <comments>https://leochen12138-a.github.io/p/28e0cb45/index.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>GoogleSearch</title>
-      <link>https://leochen12138-a.github.io/p/b8b8e0fa/index.html</link>
-      <guid>https://leochen12138-a.github.io/p/b8b8e0fa/index.html</guid>
-      <pubDate>Tue, 30 Mar 2021 13:42:27 GMT</pubDate>
-      
-      <description>这是一篇 GoogleSearch 的记录</description>
-      
-      
-      
-      
-      <category domain="https://leochen12138-a.github.io/categories/Search/">Search</category>
-      
-      
-      <category domain="https://leochen12138-a.github.io/tags/Search/">Search</category>
-      
-      <category domain="https://leochen12138-a.github.io/tags/Google/">Google</category>
-      
-      
-      <comments>https://leochen12138-a.github.io/p/b8b8e0fa/index.html#disqus_thread</comments>
       
     </item>
     
@@ -505,12 +1893,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/PL/Shell/">Shell</category>
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Shell/">Shell</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Shell/">Shell</category>
       
@@ -647,12 +2035,12 @@
     </item>
     
     <item>
-      <title>杂志</title>
+      <title>Magazine</title>
       <link>https://leochen12138-a.github.io/p/bd0662f6/index.html</link>
       <guid>https://leochen12138-a.github.io/p/bd0662f6/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 13:26:58 GMT</pubDate>
       
-      <description>这是一篇 杂志 的记录</description>
+      <description>这是一篇 Magazine 的记录</description>
       
       
       
@@ -737,9 +2125,9 @@
       
       <category domain="https://leochen12138-a.github.io/tags/OS/">OS</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Install/">Install</category>
-      
       <category domain="https://leochen12138-a.github.io/tags/Windows/">Windows</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Install/">Install</category>
       
       
       <comments>https://leochen12138-a.github.io/p/d00ba0c1/index.html#disqus_thread</comments>
@@ -757,16 +2145,16 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/OS/">OS</category>
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/OS/Windows/">Windows</category>
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/MS-Dos/">MS-Dos</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/OS/">OS</category>
-      
-      <category domain="https://leochen12138-a.github.io/tags/Command/">Command</category>
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
       <category domain="https://leochen12138-a.github.io/tags/MS-Dos/">MS-Dos</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Command/">Command</category>
       
       
       <comments>https://leochen12138-a.github.io/p/7315081b/index.html#disqus_thread</comments>
@@ -1574,8 +2962,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/VSC/">VSC</category>
+      <category domain="https://leochen12138-a.github.io/categories/Editor/">Editor</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Editor/VSC/">VSC</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
       
       <category domain="https://leochen12138-a.github.io/tags/VSC/">VSC</category>
       
@@ -1595,8 +2987,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/VS/">VS</category>
+      <category domain="https://leochen12138-a.github.io/categories/Editor/">Editor</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Editor/VS/">VS</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
       
       <category domain="https://leochen12138-a.github.io/tags/VS/">VS</category>
       
@@ -1616,8 +3012,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/NeoVim/">NeoVim</category>
+      <category domain="https://leochen12138-a.github.io/categories/Editor/">Editor</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Editor/NeoVim/">NeoVim</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
       
       <category domain="https://leochen12138-a.github.io/tags/NeoVim/">NeoVim</category>
       
@@ -1637,8 +3037,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Vim/">Vim</category>
+      <category domain="https://leochen12138-a.github.io/categories/Editor/">Editor</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Editor/Vim/">Vim</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Vim/">Vim</category>
       
@@ -1658,8 +3062,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Jupyter/">Jupyter</category>
+      <category domain="https://leochen12138-a.github.io/categories/Editor/">Editor</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Editor/Jupyter/">Jupyter</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Jupyter/">Jupyter</category>
       
@@ -1679,8 +3087,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Emacs/">Emacs</category>
+      <category domain="https://leochen12138-a.github.io/categories/Editor/">Editor</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Editor/Emacs/">Emacs</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Editor/">Editor</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Emacs/">Emacs</category>
       
@@ -1690,17 +3102,19 @@
     </item>
     
     <item>
-      <title>Gist</title>
+      <title>Github Gist</title>
       <link>https://leochen12138-a.github.io/p/33fbd027/index.html</link>
       <guid>https://leochen12138-a.github.io/p/33fbd027/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 11:49:54 GMT</pubDate>
       
-      <description>这是一篇 Gist 的记录</description>
+      <description>这是一篇 Github Gist 的记录</description>
       
       
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -1715,17 +3129,19 @@
     </item>
     
     <item>
-      <title>Actions</title>
+      <title>Github Actions</title>
       <link>https://leochen12138-a.github.io/p/caf5c873/index.html</link>
       <guid>https://leochen12138-a.github.io/p/caf5c873/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 11:38:33 GMT</pubDate>
       
-      <description>这是一篇 Actions 的记录</description>
+      <description>这是一篇 Github Actions 的记录</description>
       
       
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -1740,17 +3156,19 @@
     </item>
     
     <item>
-      <title>Commit</title>
+      <title>Github Commit</title>
       <link>https://leochen12138-a.github.io/p/49782b9b/index.html</link>
       <guid>https://leochen12138-a.github.io/p/49782b9b/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 11:37:18 GMT</pubDate>
       
-      <description>这是一篇 Commit 的记录</description>
+      <description>这是一篇 Github Commit 的记录</description>
       
       
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -1776,6 +3194,8 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/AI/">AI</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/AI/ML/">ML</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/AI/">AI</category>
@@ -1844,8 +3264,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/LaTeX/">LaTeX</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/PL/LaTeX/">LaTeX</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/LaTeX/">LaTeX</category>
       
@@ -1865,10 +3289,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Web/">Web</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/PL/HTML/">HTML</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/HTML/">HTML</category>
       
@@ -1888,10 +3314,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Web/">Web</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/PL/CSS/">CSS</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/CSS/">CSS</category>
       
@@ -1911,10 +3339,14 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Javascript/">Javascript</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/PL/JavaScript/">JavaScript</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Javascript/">Javascript</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/JavaScript/">JavaScript</category>
       
       
       <comments>https://leochen12138-a.github.io/p/cc1b9611/index.html#disqus_thread</comments>
@@ -1934,10 +3366,10 @@
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Hardware/Circuit/">Circuit</category>
+      
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
-      
-      <category domain="https://leochen12138-a.github.io/tags/Physics/">Physics</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Circuit/">Circuit</category>
       
@@ -2027,6 +3459,8 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Git/">Git</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -2172,12 +3606,12 @@
     </item>
     
     <item>
-      <title>Cracker</title>
+      <title>Crawler</title>
       <link>https://leochen12138-a.github.io/p/c1a7b173/index.html</link>
       <guid>https://leochen12138-a.github.io/p/c1a7b173/index.html</guid>
       <pubDate>Tue, 30 Mar 2021 01:18:27 GMT</pubDate>
       
-      <description>这是一篇 Cracker 的记录</description>
+      <description>这是一篇 Crawler 的记录</description>
       
       
       
@@ -2187,7 +3621,7 @@
       
       <category domain="https://leochen12138-a.github.io/tags/Security/">Security</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Cracker/">Cracker</category>
+      <category domain="https://leochen12138-a.github.io/tags/Crawler/">Crawler</category>
       
       
       <comments>https://leochen12138-a.github.io/p/c1a7b173/index.html#disqus_thread</comments>
@@ -2205,12 +3639,14 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Javascript/">Javascript</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Javascript/Vue-js/">Vue.js</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/JavaScript/">JavaScript</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Javascript/">Javascript</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/JavaScript/">JavaScript</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Vue-js/">Vue.js</category>
       
@@ -2303,6 +3739,8 @@
       
       <category domain="https://leochen12138-a.github.io/categories/AI/">AI</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/AI/DL/">DL</category>
+      
       
       <category domain="https://leochen12138-a.github.io/tags/AI/">AI</category>
       
@@ -2325,6 +3763,8 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/OpenStack/">OpenStack</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
@@ -2349,6 +3789,8 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Docker/">Docker</category>
+      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
@@ -2371,6 +3813,8 @@
       
       
       <category domain="https://leochen12138-a.github.io/categories/Hardware/">Hardware</category>
+      
+      <category domain="https://leochen12138-a.github.io/categories/Hardware/Control-Theory/">Control Theory</category>
       
       
       <category domain="https://leochen12138-a.github.io/tags/Hardware/">Hardware</category>
@@ -2533,14 +3977,16 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Cheat-Sheet/">Cheat Sheet</category>
+      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Cheat-Sheet/">Cheat Sheet</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Git/">Git</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Github/">Github</category>
-      
-      <category domain="https://leochen12138-a.github.io/tags/Cheat-Sheet/">Cheat Sheet</category>
       
       
       <comments>https://leochen12138-a.github.io/p/d19cdba9/index.html#disqus_thread</comments>
@@ -2569,18 +4015,22 @@
     </item>
     
     <item>
-      <title>Computer Network</title>
+      <title>Network</title>
       <link>https://leochen12138-a.github.io/p/5c4efa45/index.html</link>
       <guid>https://leochen12138-a.github.io/p/5c4efa45/index.html</guid>
       <pubDate>Sat, 20 Feb 2021 13:28:05 GMT</pubDate>
       
-      <description>这是一篇 Computer Network 的记录</description>
+      <description>这是一篇 Network 的记录</description>
       
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Network/">Network</category>
+      <category domain="https://leochen12138-a.github.io/categories/Security/">Security</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/Security/Net/">Net</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/Security/">Security</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Network/">Network</category>
       
@@ -2600,8 +4050,12 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Markdown/">Markdown</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/PL/Markdown/">Markdown</category>
+      
+      
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Markdown/">Markdown</category>
       
@@ -2652,14 +4106,16 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/dotfile/">dotfile</category>
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/dotfile/Windows/">Windows</category>
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/dotfile/">dotfile</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Windows/">Windows</category>
+      <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
       <category domain="https://leochen12138-a.github.io/tags/dotfile/">dotfile</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Windows/">Windows</category>
       
       
       <comments>https://leochen12138-a.github.io/p/15f9fa3d/index.html#disqus_thread</comments>
@@ -2706,6 +4162,8 @@
       
       <category domain="https://leochen12138-a.github.io/categories/DevOps/">DevOps</category>
       
+      <category domain="https://leochen12138-a.github.io/categories/DevOps/Github/">Github</category>
+      
       
       <category domain="https://leochen12138-a.github.io/tags/DevOps/">DevOps</category>
       
@@ -2731,8 +4189,6 @@
       
       <category domain="https://leochen12138-a.github.io/categories/ReprintArticle/">ReprintArticle</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/ReprintArticle/Python/">Python</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/Python/">Python</category>
       
@@ -2756,12 +4212,14 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Javascript/">Javascript</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/">PL</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/Javascript/Node-js/">Node.js</category>
+      <category domain="https://leochen12138-a.github.io/categories/PL/JavaScript/">JavaScript</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Javascript/">Javascript</category>
+      <category domain="https://leochen12138-a.github.io/tags/PL/">PL</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/JavaScript/">JavaScript</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Node-js/">Node.js</category>
       
@@ -2785,12 +4243,14 @@
       
       
       
-      <category domain="https://leochen12138-a.github.io/categories/Hexo/">Hexo</category>
+      <category domain="https://leochen12138-a.github.io/categories/Web/">Web</category>
       
       
-      <category domain="https://leochen12138-a.github.io/tags/Hexo-butterfly/">Hexo_butterfly</category>
+      <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
       
       <category domain="https://leochen12138-a.github.io/tags/Hexo/">Hexo</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/butterfly/">butterfly</category>
       
       
       <comments>https://leochen12138-a.github.io/p/b7b5d508/index.html#disqus_thread</comments>
@@ -2810,12 +4270,14 @@
       
       <category domain="https://leochen12138-a.github.io/categories/ReprintArticle/">ReprintArticle</category>
       
-      <category domain="https://leochen12138-a.github.io/categories/ReprintArticle/Hexo-butterfly/">Hexo_butterfly</category>
-      
       
       <category domain="https://leochen12138-a.github.io/tags/ReprintArticle/">ReprintArticle</category>
       
-      <category domain="https://leochen12138-a.github.io/tags/Hexo-butterfly/">Hexo_butterfly</category>
+      <category domain="https://leochen12138-a.github.io/tags/Web/">Web</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/Hexo/">Hexo</category>
+      
+      <category domain="https://leochen12138-a.github.io/tags/butterfly/">butterfly</category>
       
       
       <comments>https://leochen12138-a.github.io/p/58d8cc5e/index.html#disqus_thread</comments>
