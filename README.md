@@ -16,7 +16,7 @@ Reprinted with permission from [leochen12138-a](https://leochen12138-a.github.io
 >
 > Blog system: [Hexo](https://hexo.io/) | [Hugo](https://gohugo.io/)
 >
-> Version control: [Git for Windows](https://git-scm.com/) | [Dism++](https://www.chuyu.me/)
+> Version control: [Git](https://git-scm.com/) | [Dism++](https://www.chuyu.me/)
 >
 > Command line: [Windows Terminal](https://www.microsoft.com/zh-cn/p/windows-terminal/8n0dx20hk701?activetab=pivot:overviewtab)
 >
@@ -26,9 +26,9 @@ Reprinted with permission from [leochen12138-a](https://leochen12138-a.github.io
 >
 > Local environment: [Node.js](https://nodejs.org/zh-cn/)
 >
-> editor environment: [Markdown](https://www.wikiwand.com/zh-hans/Markdown) | [Org-Mode](https://www.orgmode.org/) | [LaTeX](https://www.latex-project.org//)
+> Editor language: [Markdown](https://www.wikiwand.com/zh-hans/Markdown) | [Org-Mode](https://www.orgmode.org/) | [LaTeX](https://www.latex-project.org//)
 >
-> Editor: [Jupyterlab](https://jupyter.org/) | [VSCode-portable](https://github.com/lukesampson/scoop-extras/) | [Neovim-nightly](https://github.com/kkzzhizhou/scoop-apps) | [Emacs 25](https://github.com/lukesampson/scoop-extras)
+> Editor: [Jupyterlab](https://jupyter.org/) | [VSCode-portable](https://github.com/lukesampson/scoop-extras/) | [Neovim-nightly](https://github.com/kkzzhizhou/scoop-apps) | [Emacs 27.2](https://github.com/lukesampson/scoop-extras)
 >
 > Reference management: [Zotero](https://www.zotero.org/) | [Calibre](https://calibre-ebook.com/)
 >
@@ -36,11 +36,15 @@ Reprinted with permission from [leochen12138-a](https://leochen12138-a.github.io
 >
 > Browser: [Chromium 90](https://www.chromium.org/getting-involved/download-chromium) | [Google Chrome Canary](https://www.chromium.org/getting-involved/dev-channel/) | [Microsoft Edge canary](https://www.microsoftedgeinsider.com/en-us/download) | [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly)
 >
+> Office: [7z](https://github.com/ScoopInstaller/Main) | [GIMP](https://www.gimp.org/) | [OpenOffice](https://www.openoffice.org/) | [LibreOffice](https://www.libreoffice.org/) | [ShareX](https://github.com/kkzzhizhou/scoop-apps)
+>
+> Email: [Thunderbird](https://www.thunderbird.net/zh-CN/)
+>
+> Media: [FFmpeg](https://github.com/ScoopInstaller/Main) | [VLC](https://www.videolan.org/vlc/) 
+>
 > Download: [Motrix](https://github.com/lukesampson/scoop-extras) | [you-get](https://github.com/kkzzhizhou/scoop-apps) | [youtube-dl](https://github.com/ScoopInstaller/Main) | [aria2](https://github.com/ScoopInstaller/Main) | [axel](https://github.com/ScoopInstaller/Main) | [Wget](https://github.com/ScoopInstaller/Main) | [curl](https://github.com/ScoopInstaller/Main)
 >
-> Multimedia: [FFmpeg](https://github.com/ScoopInstaller/Main) | [VLC](https://www.videolan.org/vlc/) | [ShareX](https://github.com/kkzzhizhou/scoop-apps)
->
-> Others:  [7z](https://github.com/ScoopInstaller/Main) | [Synctrayzor](https://github.com/lukesampson/scoop-extras) | [F.lux](https://github.com/lukesampson/scoop-extras) | [PowerToys](https://github.com/kkzzhizhou/scoop-apps)
+> Others: [Synctrayzor](https://github.com/lukesampson/scoop-extras) | [F.lux](https://github.com/lukesampson/scoop-extras) | [PowerToys](https://github.com/kkzzhizhou/scoop-apps)
 
 ## More
 
